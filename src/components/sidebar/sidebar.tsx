@@ -33,7 +33,7 @@ export function Sidebar() {
     },
   ];
   return (
-    <nav>
+    <nav className="h-screen bg-gray-800 text-white p-4">
       <ul>
         {routes.map((route) => (
           <li key={route.route}>
