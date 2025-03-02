@@ -1,0 +1,494 @@
+{
+  "abilities": [
+    {
+      "skillTreeName": "Bottomless Mags",
+      "skills": [
+        {
+          "title": "Cloud of Lead",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b77cd23cc794398b44aa_Cloud%20of%20Lead%20(Moze).webp",
+          "description": "Every Nth shot from you or Iron Bear won't consume ammo and adds Bonus Fire Damage to your Gun Damage."
+        },
+        {
+          "title": "Dakka Bear",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b8b739f5ae1e375fa082_Dakka%20Bear%20(Moze).webp",
+          "description": "Equips Iron Bear with a mannable Turret. While manned, Iron Bear and its rider deal increased Damage. Iron Cub always deals increased Damage instead. Bear Damage: +50% (twice). Turret Damage: +50%. Cub Damage: +20%."
+        },
+        {
+          "title": "Matched Set",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1bf66b126fda15c4308_Matched%20Set%20(Moze).webp",
+          "description": "Increases your Magazine Size for every equipped item that matches your held gun's Manufacturer."
+        },
+        {
+          "title": "Stoke the Embers",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca2558fe75c66614c7c6_Stoke%20the%20Embers%20(Moze).webp",
+          "description": "Increases your and Iron Bear's Fire Damage."
+        },
+        {
+          "title": "Redistribution",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c64166b126fda1513828_Redistribution%20(Moze).webp",
+          "description": "Scoring a Critical Hit, grants Health and Ammo Regeneration for a short time. Launcher Ammo regenerates slower. Duration: 3s."
+        },
+        {
+          "title": "Scrappy",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c85d21d0652d09097438_Scrappy%20(Moze).webp",
+          "description": "Moving increases your Gun Damage, Handling, Weapon Swap Speed, and Mode Switch Speed."
+        },
+        {
+          "title": "Rushin' Offensive",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c722bfb0eee685d771d3_Rushin%27%20Offensive%20(Moze).webp",
+          "description": "You can now sprint and shoot at the same time. You also gain Lifesteal while sprinting. Sprinting Lifesteal: +8%."
+        },
+        {
+          "title": "Scorching RPM's",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8435c8901d87ec7b9af_Scorching%20RPM%27s%20(Moze).webp",
+          "description": "Increases your Fire Rate, Critical Damage, and Skill Damage. Iron Bear/Cub receive double these bonuses. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "The Iron Bank",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1eb5c8901d87ed0bd99_The%20Iron%20Bank%20(Moze).webp",
+          "description": "Increases your Magazine Size and Heat per Shot. *Bug: Should decrease Heat per Shot."
+        },
+        {
+          "title": "Specialist Bear",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c98e9f516e066ace96e4_Specialist%20Bear%20(Moze).webp",
+          "description": "Equipping Iron Bear with duplicate Weapons increases their Damage. Bear/Cub Gun Damage: +60%."
+        },
+        {
+          "title": "Some for the Road",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c97458f6038b2ac86583_Some%20for%20the%20Road%20(Moze).webp",
+          "description": "On Action Skill End you gain Infinite Ammo for a short time."
+        },
+        {
+          "title": "Click, Click...",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f1ce5fbd89d8319726da3f_%E2%80%9CClick%2C%20Click...%E2%80%9D%20(Moze).webp",
+          "description": "Increases your Gun Damage. The emptier your Magazine or the hotter your COV the greater this Bonus. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Forge",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc94055ab00edf3c4b12_Forge%20(Moze).webp",
+          "description": "You gain passive Ammo Regeneration. Launcher Ammo regenerates slower. Ammo Regen/s: +5%. Launcher Ammo Regen/s: +0.5%."
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Demolition Woman",
+      "skills": [
+        {
+          "title": "Fire in the Skag Den",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1b158f6038b2ad12f00_Fire%20in%20the%20Skag%20Den%20(Moze).webp",
+          "description": "Your Area Damage deals extra Fire Skill Damage. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Deadlines",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b8c989a029c41fb4bf12_Deadlines%20(Moze).webp",
+          "description": "Iron Bear's weapons drain less Fuel. Killing an enemy refuels Iron Bear. This has diminishing returns and Auto Bear is unaffected."
+        },
+        {
+          "title": "Grizzled",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bdddc9a2047edbf26b15_Grizzled%20(Moze).avif",
+          "description": "Killing an enemy reduces your Skill Cooldown. This effect has diminishing returns. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Means of Destruction",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2176ef461a95eee2eaf_Means%20of%20Destruction%20(Moze).webp",
+          "description": "Dealing Area Damage has a chance to return a Grenade or add Ammo to your magazine. This skill has a short cooldown. Cooldown: 0.3s"
+        },
+        {
+          "title": "Torgue Cross-Promotion",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbe64133b5962d93ba59_Torgue%20Cross-Promotion%20(Moze).webp",
+          "description": "Increases your and Iron Bear's Area Damage. Your and Iron Bear's Area Damage has a chance to double its size. Area Damage Radius: +100%"
+        },
+        {
+          "title": "Stainless Steel Bear",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9d587a8d9a3999dedc8_Stainless%20Steel%20Bear%20(Moze).webp",
+          "description": "Increases Skill Damage, Maximum Fuel and Iron Bear Health. Note: Iron Bear/Cub receive this Skill Damage twice."
+        },
+        {
+          "title": "Pull the Holy Pin",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c54e94e25710d20a6d23_Pull%20the%20Holy%20Pin%20(Moze).webp",
+          "description": "Your Grenades can now score Critical Hits, doubling their damage. Grenade Critical Hits are unaffected by Crit Damage Bonuses."
+        },
+        {
+          "title": "Auto Bear",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4c889a029c41fb0c7ea_Auto%20Bear%20(Moze).webp",
+          "description": "After you exit Iron Bear he remains in place and attacks nearby enemies for a duration. When the duration ends Iron Bear charges at an enemy and self-destructs, dealing Physical Area Skill Damage. Duration: 15s Note: Exiting Iron Bear treats your Action Skill as ended."
+        },
+        {
+          "title": "Vampyr",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cccb5a7c8ff69c7856ff_Vampyr%20(Moze).webp",
+          "description": "Dealing Grenade Damage restores a portion of your Health. When Iron Bear/Cub deal Area Damage they restore Health."
+        },
+        {
+          "title": "Why Can't I Carry All These Grenades?",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f1ce6a8cb6363179eb42a5_Why%20Can%27t%20I%20Carry%20All%20These%20Grenades%20(Moze).webp",
+          "description": "Increases your Grenade Carrying Capacity."
+        },
+        {
+          "title": "To the Last",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbda39f5ae1e37726c81_To%20the%20Last%20(Moze).webp",
+          "description": "You can now throw grenades while in Fight For Your Life. Gaining a Second Wind with a Grenade refunds the grenade."
+        },
+        {
+          "title": "Explosive Punctuation",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb8121d0652d09fd05d1_Explosive%20Punctuation%20(Moze).webp",
+          "description": "Dealing Area Damage increases your Skill Cooldown Rate for a short time. Duration: 3s"
+        },
+        {
+          "title": "Short Fuse",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1d794e25710d2168c79_Short%20Fuse%20(Moze).webp",
+          "description": "Dealing Gun Damage has a chance to trigger an Explosion, dealing Physical Area Damage. This has a short Cooldown. Chance: 20% per projectile Damage: 50% of damage dealt Cooldown: 0.1s *Advanced Details on Skill Page."
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Shield of Retribution",
+      "skills": [
+        {
+          "title": "Selfless Vengeance",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c88387a8d9a3999cc64c_Selfless%20Vengeance%20(Moze).webp",
+          "description": "Reloading consumes a portion of your current Health and adds Bonus Fire Damage to the team's Gun Damage for a short time."
+        },
+        {
+          "title": "Security Bear",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c870366fe5c8cbca2338_Security%20Bear%20(Moze).webp",
+          "description": "Iron Bear gets equipped with a Bubble Shield and increased Damage Reduction. The Bubble Shield is not weak to any Element. Iron Cub receives increased Damage Reduction. Bear Max-Shield: 50% of Max-Health. Bear Shield Recharge Delay: 5s. Bear Damage Reduction: +25%. Cub Damage Reduction: +50%."
+        },
+        {
+          "title": "Armored Infantry",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b48387a8d9a399878b37_Armored%20Infantry%20(Moze).webp",
+          "description": "While your Shield is active, you gain increased Gun Damage and Damage Resistance."
+        },
+        {
+          "title": "Drowning in Brass",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba1d3a44b053aa20700b_Drowning%20in%20Brass%20(Moze).webp",
+          "description": "Killing an enemy stacks Gun Damage for you, Iron Bear/Cub, and allies but reduces your Fire Rate for a short time. Max Stacks: 3. Stack Duration: 15s. Auto-Bear doesn't benefit."
+        },
+        {
+          "title": "Thin Red Line",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbac58fe75c6661632f6_Thin%20Red%20Line%20(Moze).webp",
+          "description": "A portion of your Health is transformed into Maximum Shield."
+        },
+        {
+          "title": "Vladof Ingenuity",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd79bd56de20c6f2fc1e_Vladof%20Ingenuity%20(Moze).webp",
+          "description": "Increases your Shield Recharge Rate, Maximum Shield, and Shock Resistance."
+        },
+        {
+          "title": "Full Can of Whoop-Ass",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd125a7c8ff69c681286_Full%20Can%20of%20Whoop-Ass%20(Moze).webp",
+          "description": "Activating your Action Skill increases the Team's Shield Recharge Rate and sets Recharge Delay to 0 for 2s. On Action Skill End you gain increased Damage Resistance and your Recharge Delay is set to 0 for 5s. Team: Recharge Rate: +25%. Damage Resistance: +50%."
+        },
+        {
+          "title": "Experimental Munitions",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb5b21d0652d09fce74b_Experimental%20Munitions%20(Moze).webp",
+          "description": "Your and Iron Bear/Cub's Critical Hits deal Bonus Fire Damage."
+        },
+        {
+          "title": "Behind the Iron Curtain",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b55339f5ae1e375c7568_Behind%20the%20Iron%20Curtain%20(Moze).webp",
+          "description": "Improves your Shield Recharge Rate and Delay."
+        },
+        {
+          "title": "Desperate Measures",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b93971f8213468b7870f_Desperate%20Measures%20(Moze).webp",
+          "description": "Increases your Gun Damage. The lower your Health the greater this bonus. Increases Iron Bear/Cub's Damage. The lower their Health the greater this bonus."
+        },
+        {
+          "title": "Phalanx Doctrine",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c45b94e25710d2095f3b_Phalanx%20Doctrine%20(Moze).webp",
+          "description": "Killing an enemy grants you stacking Gun Damage, Maximum Shield, and Iron Bear Left-Arm Damage for a long time. Max Stacks: 99. Stack Duration: 30s."
+        },
+        {
+          "title": "Force Feedback",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc805c8901d87ebbb732_Force%20Feedback%20(Moze).webp",
+          "description": "Getting a Critical Kill restores a portion of your Shield and starts its Recharge. Max-Shield Restored: 10%."
+        },
+        {
+          "title": "Tenacious Defense",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb46c9a2047edbff4e48_Tenacious%20Defense%20(Moze).webp",
+          "description": "When your Shield breaks it instantly restores a portion and you gain increased Gun Damage for a long time. Your Shield needs to fully Recharge for this effect. If your shield breaks while Iron Bear/Cub is active their Left-Arm receives this bonus. Max-Shield Restored: 40%. Gun Damage: +30%. Duration: 30s."
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Bear Mother",
+      "skills": [
+        {
+          "title": "Biofuel",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b5955f940d47fb9779a3_Biofuel%20(Moze).webp",
+          "description": "When you or Iron Bear/Cub ignite an enemy, you two gain Health Regeneration for a short time. Duration: 8s."
+        },
+        {
+          "title": "Big Surplus",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b589bca35ec50eb926eb_Big%20Surplus%20(Moze).webp",
+          "description": "While your Action Skill is on Cooldown, all Damage you deal does extra Fire Skill Damage. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Really Big Guns",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6134133b5962d8e0d9e_Really%20Big%20Guns%20(Moze).avif",
+          "description": "Increases Iron Bear/Cub's Damage. Auto-Bear is not affected."
+        },
+        {
+          "title": "Double Time",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9cd6ef461a95ee63fec_Double%20Time%20(Moze).webp",
+          "description": "While your Action Skill is active, you and Iron Bear/Cub gain increased Movement Speed."
+        },
+        {
+          "title": "Harmonious Havoc",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be5071f8213468bc6ee3_Harmonious%20Havoc%20(Moze).avif",
+          "description": "Increases your Gun Damage with elemental guns. Each equipped item that matches your gun's primary element increases this bonus. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Explosive Fury",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb7b94e25710d20085bd_Explosive%20Fury%20(Moze).avif",
+          "description": "Increases your and Iron Bear's Status Effect Damage and Chance. Bug: Bonuses are not working."
+        },
+        {
+          "title": "Fired Up",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc08a5f2e8bea5f948d7_Fired%20Up%20(Moze).avif",
+          "description": "When you or Iron Bear apply a Status Effect to an enemy, you gain stacking Fire Rate and Burst-Fire Delay for a short time. Max Stacks: 5. Stack Duration: 12s. Fire Rate: +5% /stack. Burst-Fire Delay: +5% /stack."
+        },
+        {
+          "title": "Nitrotrinadium Engines",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2dfbe566b5a0112aba4_Nitrotrinadium%20Engines%20(Moze).avif",
+          "description": "Increases your Skill Cooldown Rate and Maximum Fuel."
+        },
+        {
+          "title": "Never Going to Give You Up",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2cb5f940d47fba45e8d_Never%20Going%20to%20Give%20You%20Up%20(Moze).webp",
+          "description": "When you or Iron Bear apply a Status Effect to an enemy, Iron Bear gains Fuel. This effect has diminishing returns."
+        },
+        {
+          "title": "Feature Creep",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bbc6c9a2047edbf0016f_Feature%20Creep%20(Moze).avif",
+          "description": "Increases Iron Bear/Cub's Damage and Damage Resistance. Auto-Bear is unaffected."
+        },
+        {
+          "title": "Limit Break",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c16939f5ae1e37689e23_Limit%20Break%20(Moze).webp",
+          "description": "When you or Iron Bear apply a Status Effect on an enemy you gain stacking Skill Cooldown Rate for a short time. Max Stacks: 10. Stack Duration: 12s."
+        },
+        {
+          "title": "Superior Firepower",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4caa35c8901d87eca0a79_Superior%20Firepower%20(Moze).avif",
+          "description": "When you or Iron Bear apply a Status Effect to an enemy, only you gain increased Status Effect Damage and Cryo Damage for a short time. Max Stacks: 5. Stack Duration: 8s. Status Effect Damage: +20%. Cryo Damage: +20%."
+        },
+        {
+          "title": "Running on Fumes",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c71c142b815fddecaa61_Running%20on%20Fumes%20(Moze).avif",
+          "description": "When you or Iron Bear ignite an enemy, Iron Bear stops passively consuming Fuel for a short time. Duration: 6s."
+        }
+      ]
+    }
+  ],
+  "actionSkills": [
+    [
+      {
+        "id": 1,
+        "title": "Railgun",
+        "description": "Action skill for Moze. Available at level 0.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5b6055ab00edf4597e9_Railgun%20(Moze).webp"
+      },
+      {
+        "id": 2,
+        "title": "Bear Fist",
+        "description": "Action skill for Moze. Available at level 5.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b547882ad7a75c06e6f8_Bear%20Fist%20(Moze).webp"
+      },
+      {
+        "id": 3,
+        "title": "V-35 Grenade Launcher",
+        "description": "Action skill for Moze. Available at level 0.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccc094e25710d2116020_V-35%20Grenade%20Launcher%20(Moze).webp"
+      },
+      {
+        "id": 4,
+        "title": "Vanquisher Rocket Pod",
+        "description": "Action skill for Moze. Available at level 5.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccd687a8d9a399a0c333_Vanquisher%20Rocket%20Pod%20(Moze).webp"
+      },
+      {
+        "id": 5,
+        "title": "Minigun",
+        "description": "Action skill for Moze. Available at level 0.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c26008cf3526fddfced6_Minigun%20(Moze).webp"
+      },
+      {
+        "id": 6,
+        "title": "Salamander",
+        "description": "Action skill for Moze. Available at level 5.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1cb21d0652d0912a9b2_Salamander%20(Moze).webp"
+      },
+      {
+        "id": 7,
+        "title": "Iron Cub",
+        "description": "Action skill for Moze. Available at level 0.",
+        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bfec6ef461a95eec0f7a_Iron%20Cub%20(Moze).avif"
+      }
+    ]
+  ],
+  "augments": [
+    {
+      "title": "Hell on Rails",
+      "description": "Augment for Railgun action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4beaf5c8901d87ebddc07_Hell%20on%20Rails%20(Moze).webp"
+    },
+    {
+      "title": "Capacitive Armature",
+      "description": "Augment for Railgun action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6fc75a4071825a6e8b6_Capacitive%20Armature%20(Moze).webp"
+    },
+    {
+      "title": "Wild Swing",
+      "description": "Augment for Bear Fist action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cdcabd56de20c6f35d05_Wild%20Swing%20(Moze).webp"
+    },
+    {
+      "title": "Corrosive Sabot Round",
+      "description": "Augment for Railgun action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b88a58f6038b2ab705ca_Corrosive%20Sabot%20Round%20(Moze).avif"
+    },
+    {
+      "title": "Close the Distance",
+      "description": "Augment for Bear Fist action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b76e5a7c8ff69c62858d_Close%20the%20Distance%20(Moze).webp"
+    },
+    {
+      "title": "Shockhammer",
+      "description": "Augment for Bear Fist action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c901bd56de20c6ee8cbe_Shockhammer%20(Moze).webp"
+    },
+    {
+      "title": "Shaped Charge",
+      "description": "Augment for V-35 Grenade Launcher action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8d35a7c8ff69c7488e5_Shaped%20Charge%20(Moze).webp"
+    },
+    {
+      "title": "Musical Chairs",
+      "description": "Augment for V-35 Grenade Launcher action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c29e58fe75c6660d3890_Musical%20Chairs%20(Moze).webp"
+    },
+    {
+      "title": "Active Tracking",
+      "description": "Augment for Vanquisher Rocket Pod action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3c689a029c41fafba49_Active%20Tracking%20(Moze).webp"
+    },
+    {
+      "title": "Lock and Speedload",
+      "description": "Augment for V-35 Grenade Launcher action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c18a6ef461a95eedad0e_Lock%20and%20Speedload%20(Moze).avif"
+    },
+    {
+      "title": "Target Softening",
+      "description": "Augment for Vanquisher Rocket Pod action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb17882ad7a75c1e0da9_Target%20Softening%20(Moze).webp"
+    },
+    {
+      "title": "Hammerdown Protocol",
+      "description": "Augment for Vanquisher Rocket Pod action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be30366fe5c8cbbfc8e1_Hammerdown%20Protocol%20(Moze).webp"
+    },
+    {
+      "title": "Let Off Some Steam",
+      "description": "Augment for Minigun action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c12ce5685905ad37b336_Let%20Off%20Some%20Steam%20(Moze).webp"
+    },
+    {
+      "title": "General Winter",
+      "description": "Augment for Minigun action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd5971f8213468bb8288_General%20Winter%20(Moze).webp"
+    },
+    {
+      "title": "Fuel Economy",
+      "description": "Augment for Salamander action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bceb08cf3526fdda4c0a_Fuel%20Economy%20(Moze).webp"
+    },
+    {
+      "title": "Exploding. Bullets.",
+      "description": "Augment for Minigun action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb68c9a2047edbefa1b4_Exploding.%20Bullets.%20(Moze).webp"
+    },
+    {
+      "title": "Chemical Warfare",
+      "description": "Augment for Salamander action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7285a7c8ff69c622915_Chemical%20Warfare%20(Moze).webp"
+    },
+    {
+      "title": "Molten Roar",
+      "description": "Augment for Salamander action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c269c9a2047edbf6ab38_Molten%20Roar%20(Moze).webp"
+    },
+    {
+      "title": "Fuel for the Fire",
+      "description": "Augment for Iron Cub action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bcf2c9a2047edbf12b58_Fuel%20for%20the%20Fire%20(Moze).avif"
+    },
+    {
+      "title": "Baby Nukes",
+      "description": "Augment for Iron Cub action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b50094e25710d2fa54b4_Baby%20Nukes%20(Moze).avif"
+    },
+    {
+      "title": "My Little Friend",
+      "description": "Augment for Iron Cub action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2ac87a8d9a39996ad24_My%20Little%20Friend%20(Moze).webp"
+    },
+    {
+      "title": "Efficiency Engine",
+      "description": "Augment for Iron Cub action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba935c8901d87eb9f0dd_Efficiency%20Engine%20(Moze).avif"
+    }
+  ]
+}

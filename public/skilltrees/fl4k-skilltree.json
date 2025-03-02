@@ -1,0 +1,496 @@
+{
+  "abilities": [
+    {
+      "skillTreeName": "Stalker",
+      "skills ": [
+        {
+          "title": "Self-Repairing System",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c87d21d0652d09099aff_Self-Repairing%20System%20(FL4K).webp",
+          "description": "Increases your Maximum Health and Health Regeneration."
+        },
+        {
+          "title": "Sic 'Em",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c935e5685905ad413b59_Sic%20%27Em%20(FL4K).webp",
+          "description": "Increases Attack Command Damage and reduces its Cooldown."
+        },
+        {
+          "title": "Furious Attack",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd18be566b5a010d5129_Furious%20Attack%20(FL4K).webp",
+          "description": "Shooting an enemy stacks Gun Damage, Pet Damage, and Handling for a short time. Max Stacks: 10 Stack Duration: 4s"
+        },
+        {
+          "title": "Eager to Impress",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba803a44b053aa20dec9_Eager%20To%20Impress%20(FL4K).webp",
+          "description": "Killing an enemy reduces your Skill Cooldown. When your pet gets a kill your Attack Command Cooldown is reset and your Skill Cooldown is reduced even more."
+        },
+        {
+          "title": "All My BFF's",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b412ca78268047892c59_All%20My%20BFF%27s%20(FL4K).webp",
+          "description": "You share a Health Regeneration portion with the Team. Your pets share double the Health Regeneration."
+        },
+        {
+          "title": "Overclocked",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c40d5c8901d87ec38062_Overclocked%20(FL4K).webp",
+          "description": "Increases your Fire Rate. Reloading doubles this bonus for a short time. Duration: 4s"
+        },
+        {
+          "title": "Lick the Wounds",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c13fbe17b6544a42a1a8_Lick%20The%20Wounds%20(FL4K).webp",
+          "description": "Your Pet gets the ability to revive you. If it does, your pet gains increased Damage for a long time. Pet Damage: +30% Duration: 60s"
+        },
+        {
+          "title": "Turn Tail and Run",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc21882ad7a75c1f05f8_Turn%20Tail%20And%20Run%20(FL4K).webp",
+          "description": "While moving, you gain Health Regeneration and Damage Resistance. While still, you gain Gun Damage and Fire Rate."
+        },
+        {
+          "title": "The Fast and the Furryous",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb6621d0652d090c44c2_The%20Fast%20and%20the%20Furryous%20(FL4K).webp",
+          "description": "While above 50% Health, you gain increased Gun Damage, Pet Damage, and Movement Speed."
+        },
+        {
+          "title": "Hidden Machine",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bedb75a4071825ae7d63_Hidden%20Machine%20(FL4K).webp",
+          "description": "You deal increased Damage to enemies who aren't targeting you."
+        },
+        {
+          "title": "Rage and Recover",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5a887a8d9a39999ed4a_Rage%20And%20Recover%20(FL4K).webp",
+          "description": "Killing an enemy grants you and your pet Health Regeneration for a short time. Duration: 3s"
+        },
+        {
+          "title": "The Power Inside",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb95d1c0205e9c765f67_The%20Power%20Inside%20(FL4K).webp",
+          "description": "Activating an Action Skill, increases your and your pet's Damage for a short time. If you are at full health this bonus is doubled. Damage: +25% Duration: 15s"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Master",
+      "skills": [
+        {
+          "title": "Ferocity",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bbda5c8901d87ebb13b4_Ferocity%20(FL4K).webp",
+          "description": "Increases your Pet Damage."
+        },
+        {
+          "title": "Persistence Hunter",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c44908cf3526fde1e367_Persistence%20Hunter%20(FL4K).webp",
+          "description": "Increases your Gun Damage and Action Skill Duration."
+        },
+        {
+          "title": "Go for the Eyes!",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd8739f5ae1e3764c61c_Go%20For%20The%20Eyes!%20(FL4K).webp",
+          "description": "Your pet's 1st Melee Attack to an enemy is always a Critical Hit, dealing increased damage."
+        },
+        {
+          "title": "Who Rescued Who?",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f37a24468c25972d08e5d1_Who%20Rescued%20Who%20(FL4K).webp",
+          "description": "Dealing Damage heals your Pet for a portion of the damage. When your Pet deals damage, you gain Health Regeneration for a short time. When your pet deals damage early the duration resets. Duration: 5s"
+        },
+        {
+          "title": "He Bites!",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be695f940d47fba02565_He%20Bites!%20(FL4K).webp",
+          "description": "Your pet reflects some of the damage it takes to attackers."
+        },
+        {
+          "title": "Frenzy",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bcbca5f2e8bea5fab2cd_Frenzy%20(FL4K).webp",
+          "description": "When your pet deals damage, you stack Damage dealt. Stacks decay if your pet didn't deal damage for a short time. Max Stacks: 10 Decay Delay: 3s Loader pets are unsupported!"
+        },
+        {
+          "title": "Psycho Head on a Stick",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c548be17b6544a46d5f8_Psycho%20Head%20on%20a%20Stick%20(FL4K).webp",
+          "description": "Killing an enemy increases your pet's Movement Speed and Damage for a short time. Duration: 8s"
+        },
+        {
+          "title": "Hive Mind",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bf01d23cc7943992258e_Hive%20Mind%20(FL4K).webp",
+          "description": "You deflect some damage you taken to your pet. When you take damage your pet deals Bonus Damage for a short time."
+        },
+        {
+          "title": "Barbaric Yawp",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b51a4133b5962d7c7571_Barbaric%20Yawp%20(FL4K).webp",
+          "description": "Increases the Effect of your Pet Bonuses. Loader pets are unaffected!"
+        },
+        {
+          "title": "Mutated Defenses",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2a4a5f2e8bea5005d1e_Mutated%20Defenses%20(FL4K).webp",
+          "description": "When your pet drops below 30% Health, it gains Damage Resistance and Health Regeneration for a short time. Duration: 6s Cooldown: 15s Damage Resistance: +30% Pet Max-Health Regen/s: +6.7%"
+        },
+        {
+          "title": "Pack Tactics",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c42994e25710d209347f_Pack%20Tactics%20(FL4K).webp",
+          "description": "Increases your Maximum Health, Pet Health, Pet Damage, and Damage dealt."
+        },
+        {
+          "title": "Shared Spirit",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8db5a7c8ff69c748dfb_Shared%20Spirit%20(FL4K).webp",
+          "description": "While below 30% Health, you gain increased Damage Resistance and your pet heals for half of your damage taken. Damage Resistance: +50% Pet Healing: 50% of your damage taken"
+        },
+        {
+          "title": "Dominance",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9a75c8901d87eb91e20_Dominance%20(FL4K).webp",
+          "description": "Scoring a Critical hit while aiming or meleeing an enemy establishes Dominance and turns the target into an ally for a short time. You can only dominate one enemy at a time and only once. The target loses 2% Max-Health/s and is more likely to be attacked. When the duration ends or the target dies, they release a Nova, dealing Radiation Area Skill Damage. Duration: 12s Beast Duration: 24s"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Hunter",
+      "skills": [
+        {
+          "title": "Interplanetary Stalker",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bfbd71f8213468bde5a0_Interplanetary%20Stalker%20(FL4K).webp",
+          "description": "Killing an enemy grants you stacking Pet Damage and Damage dealt for a short time. Each enemy type you kill grants a unique stacking Bonus. Your Pet benefits from all bonuses. Individual Max Stacks: 3 Individual Stack Duration: 8s"
+        },
+        {
+          "title": "Leave No Trace",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c12521d0652d09024c97_Leave%20No%20Trace%20(FL4K).webp",
+          "description": "When you or your Pet score a Critical Hit, you have a chance to add 1 ammo to your magazine. This has a short Cooldown. Cooldown: 0.3s"
+        },
+        {
+          "title": "Second Intention",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c864055ab00edf47fead_Second%20Intention%20(FL4K).avif",
+          "description": "Killing an enemy increases your and your pet's Reload Speed for a short time. Critical Kills double this bonus. Duration: 5s"
+        },
+        {
+          "title": "Hunter's Eye",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bf15ca7826804793a8e3_Hunter%27s%20Eye%20(FL4K).webp",
+          "description": "You get different Bonuses when fighting different enemy types."
+        },
+        {
+          "title": "Head Count",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be6f882ad7a75c119861_Head%20Count%20(FL4K).webp",
+          "description": "Scoring a Critical Hit, has a chance to reduce your Skill Cooldown. Skill Cooldown: -2.0s"
+        },
+        {
+          "title": "Ambush Predator",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b45394e25710d2f966d2_Ambush%20Predator%20(FL4K).webp",
+          "description": "While no enemies are nearby, you gain increased Critical Damage and Weapon Handling."
+        },
+        {
+          "title": "Two F4ng",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc2ebe566b5a011c7b8e_Two%20F4ng%20(FL4K).webp",
+          "description": "Every shot has a chance to fire an Extra Projectile."
+        },
+        {
+          "title": "Big Game",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b58289a029c41fb16550_Big%20Game%20(FL4K).avif",
+          "description": "Increases the Effect and Duration of your Hunter (Kill) Skill Bonuses."
+        },
+        {
+          "title": "The Most Dangerous Game",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb725f940d47fbad3554_The%20Most%20Dangerous%20Game%20(FL4K).webp",
+          "description": "Killing an Badass or stronger enemy, increases your and your pet's Weapon Handling, Gun, Pet, and Critical Damage for a long time. You also receive a Cash Reward. Duration: 120s"
+        },
+        {
+          "title": "Galactic Shadow",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd39c9a2047edbf16740_Galactic%20Shadow%20(FL4K).webp",
+          "description": "Increases your Critical Damage and enemies are less likely to attack you. Crit Damage: +15%"
+        },
+        {
+          "title": "Grim Harvest",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bdc8d23cc79439910ebe_Grim%20Harvest%20(FL4K).webp",
+          "description": "Increases your Gun, Skill, and Pet Damage."
+        },
+        {
+          "title": "Megavore",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c225e5685905ad3896a9_Megavore%20(FL4K).webp",
+          "description": "All your shots have a chance to be a Critical Hit. Crit Chance: 20%"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Trapper",
+      "skills": [
+        {
+          "title": "Gotta Go Fast",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd9ae5685905ad34717a_Gotta%20Go%20Fast%20(FL4K).webp",
+          "description": "Increases your Pet's Damage and Movement Speed."
+        },
+        {
+          "title": "Success Imminent",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca71bd56de20c6efe532_Success%20Imminent%20(FL4K).avif",
+          "description": "When your or your pet's Shield breaks or fills up, both of you create a Nova, dealing Radiation Area Skill Damage. Cooldown: 3s"
+        },
+        {
+          "title": "Agility Training",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3e6ca78268047890327_Agility%20Training%20(FL4K).avif",
+          "description": "Increases your and your pet's Reload Speed."
+        },
+        {
+          "title": "Better Toys",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b57c5c8901d87eb4bb6d_Better%20Toys%20(FL4K).avif",
+          "description": "Improves your and your pet's Shield Recharge Rate and Delay."
+        },
+        {
+          "title": "Combat Veterinarian",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7bb71f8213468b5f112_Combat%20Veterinarian%20(FL4K).webp",
+          "description": "Shooting your pet's attack target, heals your pet for 30% of your damage dealt."
+        },
+        {
+          "title": "Throatripper",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbc36ef461a95ef76748_Throatripper%20(FL4K).webp",
+          "description": "Your Pet gets a Chance to score Critical Hits."
+        },
+        {
+          "title": "Lethal Force Authorized",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c13266b126fda14ba9a4_Lethal%20Force%20Authorized%20(FL4K).avif",
+          "description": "Reduces your Pet's Respawn Time. When your Loader Pet would enter Fight For Your Life, it instead turns into an EXP Loader. The EXP Loader charges at an enemy and self-destructs, dealing Fire Area Pet Damage in a large radius. Pet Respawn Time: -33.3%"
+        },
+        {
+          "title": "Take This!",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cafc9f516e066ad0004c_Take%20This!%20(FL4K).avif",
+          "description": "Your pet gains a copy of your Shield with its Effects."
+        },
+        {
+          "title": "Monkey Do!",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c27cd1c0205e9c6cdece_Monkey%20Do!%20(FL4K).avif",
+          "description": "Increases your pet's Critical Damage. When your pet scores a Critical Hit, your next shot is converted to Physical Amp Damage. Amp Damage: +86%"
+        },
+        {
+          "title": "Wooly Armor",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ce165c8901d87ecd43ee_Wooly%20Armor%20(FL4K).avif",
+          "description": "While your Shield is full, your pet gains Damage Resistance. Pet Damage Resistance: +75%"
+        },
+        {
+          "title": "Not Even a Challenge",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c36a58f6038b2ac1b7c7_Not%20Even%20a%20Challenge%20(FL4K).avif",
+          "description": "When your pet gets a kill, you gain stacking Action Skill Duration and Cooldown Rate for a short time. Max Stacks: 10 Stack Duration: 12s"
+        },
+        {
+          "title": "Fuzzy Math",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd325f940d47fb9f0f4a_Fuzzy%20Math%20(FL4K).webp",
+          "description": "When you or your pet scores a Critical Hit, you two restore a Shield portion."
+        },
+        {
+          "title": "Keep Them Safe",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c055bca35ec50ec33be9_Keep%20Them%20Safe%20(FL4K).webp",
+          "description": "Issuing an Attack Command while you or your pet is below 50% Shield, causes you two to restore a Shield portion. Cooldown: 12s"
+        },
+        {
+          "title": "Capacitance",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6f6bca35ec50eba7981_Capacitance%20(FL4K).avif",
+          "description": "Activating your Action Skill, starts your Shield Recharge and doubles your Current Shield for a short time. Duration: 16s Cooldown: 16s"
+        }
+      ]
+    }
+  ],
+  "actionSkills": [
+    {
+      "title": "Rakk Attack!",
+      "description": "Action skill for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5c3bd56de20c6eb30da_Rakk%20Attack!%20(FL4K).webp"
+    },
+    {
+      "title": "Gamma Burst",
+      "description": "Action skill for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd40bca35ec50ec09cb9_Gamma%20Burst%20(FL4K).avif"
+    },
+    {
+      "title": "Fade Away",
+      "description": "Action skill for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb8dc9a2047edbefc3ed_Fade%20Away%20(FL4K).webp"
+    },
+    {
+      "title": "Gravity Snare",
+      "description": "Action skill for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bda158fe75c6660869b6_Gravity%20Snare%20(FL4K).avif"
+    }
+  ],
+  "augments": [
+    {
+      "title": "Rakk Open a Cold One",
+      "description": "Augment for Rakk Attack! action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d16958f6038b2ad0ee2c_Rakk%20Open%20a%20Cold%20One%20(FL4K).webp"
+    },
+    {
+      "title": "Falconer's Feast",
+      "description": "Augment for Rakk Attack! action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb9a87a8d9a399901b19_Falconer%27s%20Feast%20(FL4K).webp"
+    },
+    {
+      "title": "Flock 'N Load",
+      "description": "Augment for Rakk Attack! action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc586ef461a95ee8a136_Flock%20%27N%20Load%20(FL4K).webp"
+    },
+    {
+      "title": "Rakkcelerate",
+      "description": "Augment for Rakk Attack! action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5d1c9a2047edbfa2a5f_Rakkcelerate%20(FL4K).webp"
+    },
+    {
+      "title": "Atomic Aroma",
+      "description": "Augment for Gamma Burst action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4c2e5685905ad2c1dfc_Atomic%20Aroma%20(FL4K).webp"
+    },
+    {
+      "title": "Empathic Rage",
+      "description": "Augment for Gamma Burst action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bae394e25710d2fff9cd_Empathic%20Rage%20(FL4K).webp"
+    },
+    {
+      "title": "Endurance",
+      "description": "Augment for Gamma Burst action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bafcbe566b5a010b2754_Endurance%20(FL4K).webp"
+    },
+    {
+      "title": "Burst Aid",
+      "description": "Augment for Gamma Burst action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6c058fe75c66601f04c_Burst%20Aid%20(FL4K).webp"
+    },
+    {
+      "title": "Guerrillas in the Mist",
+      "description": "Augment for Fade Away action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bdf0366fe5c8cbbf9157_Guerrillas%20in%20the%20Mist%20(FL4K).webp"
+    },
+    {
+      "title": "Not My Circus",
+      "description": "Augment for Fade Away action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c371e5685905ad39bd3f_Not%20My%20Circus%20(FL4K).webp"
+    },
+    {
+      "title": "Until You Are Dead",
+      "description": "Augment for Fade Away action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc685c8901d87ecb9afd_Until%20You%20Are%20Dead%20(FL4K).webp"
+    },
+    {
+      "title": "Unblinking Eye",
+      "description": "Augment for Fade Away action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc40d1c0205e9c770a58_Unblinking%20Eye%20(FL4K).webp"
+    },
+    {
+      "title": "Forage",
+      "description": "Augment for Gravity Snare action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc7394e25710d201d0bc_Forage%20(FL4K).avif"
+    },
+    {
+      "title": "Wide Net",
+      "description": "Augment for Gravity Snare action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cdc458fe75c666183281_Wide%20Net%20(FL4K).webp"
+    },
+    {
+      "title": "Trap Card",
+      "description": "Augment for Gravity Snare action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbf794e25710d2109ea2_Trap%20Card%20(FL4K).avif"
+    },
+    {
+      "title": "Blind with Anger",
+      "description": "Augment for Gravity Snare action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b5ce5f940d47fb97b340_Blind%20with%20Anger%20(FL4K).webp"
+    }
+  ],
+  "pets": [
+    {
+      "title": "Spiderant Centurion",
+      "description": "Pet for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9a575a4071825b8d212_Spiderant%20Centurion%20(FL4K).webp"
+    },
+    {
+      "title": "Spiderant Scorcher",
+      "description": "Pet for FL4K. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9b35f940d47fbab9a5a_Spiderant%20Scorcher%20(FL4K).webp"
+    },
+    {
+      "title": "Spiderant Countess",
+      "description": "Pet for FL4K. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9ab5a7c8ff69c75532f_Spiderant%20Countess%20(FL4K).webp"
+    },
+    {
+      "title": "Guard Skag",
+      "description": "Pet for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bde358f6038b2abc71b2_Guard%20Skag%20(FL4K).webp"
+    },
+    {
+      "title": "Great Horned Skag",
+      "description": "Pet for FL4K. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bda887a8d9a39991e869_Great%20Horned%20Skag%20(FL4K).webp"
+    },
+    {
+      "title": "Eridian Skag",
+      "description": "Pet for FL4K. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb22bfb0eee685cbafe3_Eridian%20Skag%20(FL4K).webp"
+    },
+    {
+      "title": "Jabber Sidekick",
+      "description": "Pet for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c00d5f940d47fba1935d_Jabber%20Sidekick%20(FL4K).webp"
+    },
+    {
+      "title": "Beefcake Jabber",
+      "description": "Pet for FL4K. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b54d21d0652d09f70179_Beefcake%20Jabber%20(FL4K).webp"
+    },
+    {
+      "title": "Gunslinger Jabber",
+      "description": "Pet for FL4K. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be10c9a2047edbf29009_Gunslinger%20Jabber%20(FL4K).webp"
+    },
+    {
+      "title": "Pet ION Loader",
+      "description": "Pet for FL4K. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c455bfb0eee685d47392_Pet%20ION%20Loader%20(FL4K).webp"
+    },
+    {
+      "title": "BUL Loader",
+      "description": "Pet for FL4K. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4fad1c0205e9c60b534_Bul%20Loader%20(FL4K).avif"
+    },
+    {
+      "title": "WAR Loader",
+      "description": "Pet for FL4K. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd7f5c8901d87ecca48c_War%20Loader%20(FL4K).avif"
+    }
+  ]
+}

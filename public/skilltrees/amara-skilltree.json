@@ -1,0 +1,473 @@
+{
+  "abilities": [
+    {
+      "skillTreeName": "Brawl",
+      "skills": [
+        {
+          "title": "Root to Rise",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c70275a4071825b68849_Root%20to%20Rise%20(Amara).webp",
+          "description": "Increases your Maximum Health."
+        },
+        {
+          "title": "Personal Space",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c44f89a029c41fc137f6_Personal%20Space%20(Amara).webp",
+          "description": "You deal Bonus Gun Damage* the closer you are to the target."
+        },
+        {
+          "title": "Clarity",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b72f89a029c41fb31abc_Clarity%20(Amara).webp",
+          "description": "You gain passive Health Regeneration. Activating an Action Skill grants stacking Health Regeneration for a short time. Max Stacks: unlimited Stack Duration: 5s"
+        },
+        {
+          "title": "Arms Deal",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4895a7c8ff69c5fa081_Arms%20Deal%20(Amara).webp",
+          "description": "Increases your Area Damage and Area Damage Resistance."
+        },
+        {
+          "title": "Samsara",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c80521d0652d09092cb7_Samsara%20(Amara).webp",
+          "description": "Dealing Skill Damage with your Action Skill stacks Gun Damage and Health Regeneration for a long time. Max Stacks: 5 Stack Duration: 20s"
+        },
+        {
+          "title": "Helping Hand(s)",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bec942dbb01db66c9352_Helping%20Hand(s)%20(Amara).webp",
+          "description": "Activating an Action Skill increases your Damage Resistance for a short time. Duration: 15s"
+        },
+        {
+          "title": "Mindfulness",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c259be566b5a01121a69_Mindfulness%20(Amara).webp",
+          "description": "Taking damage stacks Movement Speed and Shield Recharge Delay for a short time. Max Stacks: 25 Stack Duration: 5s"
+        },
+        {
+          "title": "Find Your Center",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bbe708cf3526fdd97a50_Find%20Your%20Center%20(Amara).webp",
+          "description": "Increases your Melee Damage. Activating an Action Skill increases your Melee Range for a long time. Melee Range: +75% Duration: 20s"
+        },
+        {
+          "title": "Vigor",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd3158fe75c66617a4ea_Vigor%20(Amara).webp",
+          "description": "Killing an enemy grants the team stacking Movement Speed for a short time. Max Stacks: unlimited Stack Duration: 8s"
+        },
+        {
+          "title": "One With Nature",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c3c2366fe5c8cbc55a92_One%20With%20Nature%20(Amara).webp",
+          "description": "Increases your Maximum Health and Resistance towards your Attuned Element."
+        },
+        {
+          "title": "Do unto Others",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9a0d1c0205e9c64f40d_Do%20unto%20Others%20(Amara).webp",
+          "description": "Taking enemy damage causes you to send out an energy orb at the attacker, dealing [Attuned Element] Area Damage. Cooldown: 8s"
+        },
+        {
+          "title": "Jab Cross",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c00639f5ae1e37675f39_Jab%20Cross%20(Amara).webp",
+          "description": "Dealing Melee Damage increases your Gun Damage and Skill Damage for a short time. Duration: 10s"
+        },
+        {
+          "title": "Guardian Angel",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bdeae5685905ad34b638_Guardian%20Angel%20(Amara).webp",
+          "description": "Entering Fight for your Life grants you Second Wind, restores Health and creates an Elemental Nova that knocks back nearby enemies, dealing [Attuned Element] Area Skill Damage. Max-Health Restored: 50% Cooldown: 120s"
+        },
+        {
+          "title": "Blitz",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b5d489a029c41fb1c41c_Blitz%20(Amara).webp",
+          "description": "Increases your Melee Damage. Press [melee] while aiming at an enemy to dash forward and perform a Blitz Attack, dealing [Attuned Element] Melee Damage. The Blitz Attack deals Bonus Damage* and if it kills an enemy, its Cooldown is reset. Cooldown: 10s Melee Damage: +100% Blitz Bonus Damage: up to +83%"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Mystical Assault",
+      "skills": [
+        {
+          "title": "Do Harm",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64ef6bca2d652ba4646f9e76_Do%20Harm%20(Amara).webp",
+          "description": "Killing an enemy grants you a Rush Stack. Activating an Action Skill consumes all stacks, and each grants Skill Damage for a long time. Max Rush Stacks: 10 Max Stacks: 99 Stack Duration: 20s"
+        },
+        {
+          "title": "Fast Hand(s)",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bba708cf3526fdd94a15_Fast%20Hand(s)%20(Amara).webp",
+          "description": "Increases your Reload Speed, Weapon Swap Speed, and Mode Switch Speed."
+        },
+        {
+          "title": "Violent Tapestry",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd68055ab00edf4cd55e_Violent%20Tapestry%20(Amara).webp",
+          "description": "Applying a Status Effect grants you a Rush Stack. Activating an Action Skill consumes all stacks, and each grants Status Effect Chance for a long time. Max Rush Stacks: 10 Max Stacks: 99 Stack Duration: 20s"
+        },
+        {
+          "title": "Alacrity",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3f958f6038b2ab25fbf_Alacrity%20(Amara).avif",
+          "description": "Increases your Reload Speed for each Rush Stack. Activating an Action Skill consumes all stacks, and each grants Reload Speed for a short time. Activating an Action Skill early resets this bonus. Duration: 8s"
+        },
+        {
+          "title": "Transcend",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbf1e5685905ad43e4b0_Transcend%20(Amara).webp",
+          "description": "Activating an Action Skill stacks Critical Damage and Accuracy for a short time. Max Stacks: unlimited Stack Duration: 12s"
+        },
+        {
+          "title": "Restless",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c69d5f940d47fba8a973_Restless%20(Amara).webp",
+          "description": "Increases your Skill Cooldown Rate."
+        },
+        {
+          "title": "Ascendant",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b49dbca35ec50eb834fc_Ascendant%20(Amara).webp",
+          "description": "All Action Skill Augments gain increased effects. Soul Sap: +20% Lifesteal Allure: +100% Radius Glamour: +50% Duration Stillness of Mind: +0.75s Delay Revelation: +25% Damage Expedite: +15% Cooldown Rate"
+        },
+        {
+          "title": "From Rest",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bcd0a5f2e8bea5fad6ba_From%20Rest%20(Amara).webp",
+          "description": "Increases your Fire Rate and Charge Speed."
+        },
+        {
+          "title": "Laid Bare",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c0d558f6038b2abf66a5_Laid%20Bare%20(Amara).webp",
+          "description": "Dealing Skill Damage with your Action Skill increases all Damage to that enemy for a short time. Duration: 8s"
+        },
+        {
+          "title": "Wrath",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ce2708cf3526fdebaa65_Wrath%20(Amara).webp",
+          "description": "Increases your Gun Damage. Activating an Action Skill doubles this bonus for a short time. Duration: 8s"
+        },
+        {
+          "title": "Remnant",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c668142b815fddec0e20_Remnant%20(Amara).webp",
+          "description": "Killing an enemy with your Gun or Action Skill creates a homing Orb that explodes on enemy impact, dealing [Attuned Element] Area Skill Damage. The Orb receives Overkill Damage."
+        },
+        {
+          "title": "Awakening",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4e8055ab00edf346e16_Awakening%20(Amara).webp",
+          "description": "Increases the Effect of your Rush Stack Bonuses."
+        },
+        {
+          "title": "Avatar",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4e15c8901d87eb420fd_Avatar%20(Amara).webp",
+          "description": "You can now activate your Action Skill once while it's on Cooldown. Killing an enemy with Skill Damage, refunds half of the Rush Stacks consumed by the Skill. Max Rush Stacks: +10"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Fist of the Elements",
+      "skills": [
+        {
+          "title": "Anima",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b475bca35ec50eb815b8_Anima%20(Amara).webp",
+          "description": "Increases your Status Effect Damage and Duration. Your Attuned Element receives double the Status Effect Damage. While attuned to Shock your Shock Status Effect Duration is further increased. Bug: Anima is inactive while attuned to Cryo."
+        },
+        {
+          "title": "Steady Hand(s)",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9fd08cf3526fde78847_Steady%20Hand(s)%20(Amara).webp",
+          "description": "Increases your Accuracy and Weapon Handling."
+        },
+        {
+          "title": "Infusion",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bf975c8901d87ebeac2b_Infusion%20(Amara).webp",
+          "description": "Converts a portion of your Gun's Damage into your Attuned Element. Note: Damage from unlisted Projectiles isn't converted."
+        },
+        {
+          "title": "Tempest",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb40bd56de20c6f0c09b_Tempest%20(Amara).webp",
+          "description": "Amara deals increased Elemental Damage. Shock Damage is further increased."
+        },
+        {
+          "title": "Illuminated Fist",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bf4858fe75c6660a1692_Illuminated%20Fist%20(Amara).webp",
+          "description": "Increases your Melee Damage. Converts your Melee Attacks' Damage into your Attuned Element."
+        },
+        {
+          "title": "Wildfire",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cdcf142b815fddf36a76_Wildfire%20(Amara).webp",
+          "description": "Status Effects applied to an enemy have a chance to spread to a nearby enemy."
+        },
+        {
+          "title": "Dread",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9fe5c8901d87eb968e7_Dread%20(Amara).webp",
+          "description": "Grasping an enemy stacks Gun Damage for a short time. Any player who kills a grasped enemy refills their magazine. Stack Duration: 8s"
+        },
+        {
+          "title": "Indiscriminate",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bf82bfb0eee685cfc299_Indiscriminate%20(Amara).webp",
+          "description": "Your bullets have a chance to ricochet off enemies towards other enemies at reduced damage. Enemies affected by Phasegrasp or Stillness of Mind* have increased Chance and Damage. Ricochet Damage: -50% Grasped: Ricochet Damage: -25%"
+        },
+        {
+          "title": "Deep Well",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b90b3a44b053aa1f85dd_Deep%20Well%20(Amara).webp",
+          "description": "Increases your Mag Size with elemental guns."
+        },
+        {
+          "title": "Catharsis",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b70f58f6038b2ab5b9c2_Catharsis%20(Amara).webp",
+          "description": "Killing an enemy that has suffered from your Status Effect creates an Explosion, dealing [Attuned Element] Area Skill Damage. Any other Status Effects active at death create extra Elemental Explosions. Cooldown: 8s"
+        },
+        {
+          "title": "Sustainment",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cac7be566b5a011b2c7e_Sustainment%20(Amara).webp",
+          "description": "Dealing direct Elemental Damage heals you."
+        },
+        {
+          "title": "Conflux",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7f575a4071825a7dc04_Conflux%20(Amara).webp",
+          "description": "Applying a Status Effect has a chance to apply an extra Fire, Shock, or Corrosive Status Effect to the enemy."
+        },
+        {
+          "title": "Forceful Expression",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc884133b5962d842e61_Forceful%20Expression%20(Amara).webp",
+          "description": "Your Gun, Grenade, and Shield Damage deals +18% Bonus [Attuned Element] Damage. The skills Indiscriminate and Do unto Others also deal Bonus Damage."
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Enlightened Force",
+      "skills": [
+        {
+          "title": "Trust in Yourself",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc15be566b5a011c64f9_Trust%20in%20Yourself%20(Amara).webp",
+          "description": "On Shield break, you gain stacking Reload Speed, Charge Speed, and Weapon Swap Speed for a short time. If Melee Damage breaks your shield you gain 2 stacks. Max Stacks: 2 Stack Duration: 24s"
+        },
+        {
+          "title": "No Mistakes in Nature",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2ec39f5ae1e376a3d17_No%20Mistakes%20in%20Nature%20(Amara).webp",
+          "description": "Applying a Status Effect increases your Melee Damage for a short time. Duration: 12s"
+        },
+        {
+          "title": "Heavy Rain",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bea289a029c41fbbd564_Heavy%20Rain%20(Amara).webp",
+          "description": "Increases your Area Damage and Projectile Speed."
+        },
+        {
+          "title": "Go with the Flow",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd8d71f8213468bbb09a_Go%20with%20the%20Flow%20(Amara).webp",
+          "description": "Freezing an enemy increases your Movement Speed and Gun Damage for a short time. Duration: 16s"
+        },
+        {
+          "title": "Unweave the Rainbow",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc6f89a029c41fc9bdd4_Unweave%20the%20Rainbow%20(Amara).avif",
+          "description": "Dealing Melee or Area Damage to a frozen target adds extra [Attuned Element] Skill Damage*. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Ebb and Flow",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba8c882ad7a75c0c9c2b_Ebb%20and%20Flow%20(Amara).avif",
+          "description": "Getting a Melee Damage kill restores Health based on the killing blow Damage."
+        },
+        {
+          "title": "Combo Breaker",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7c2be17b6544a3931a3_Combo%20Breaker%20(Amara).avif",
+          "description": "Killing an enemy with Melee Damage has a chance to reset your Action Skill Cooldown. Chance: 20%"
+        },
+        {
+          "title": "Joyful Freedom",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c01dd23cc794399321e9_Joyful%20Freedom%20(Amara).webp",
+          "description": "Activating an Action Skill stacks Melee Damage for a short time. Max Stacks: unlimited Stack Duration: 12s"
+        },
+        {
+          "title": "Burn Both Ends",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6ad66b126fda141fe05_Burn%20Both%20Ends%20(Amara).avif",
+          "description": "Activating an Action Skill, taunts enemies in a large radius causing them to attack you. Taking enemy damage grants stacking Elemental and Physical Damage for a short time. Max Stacks: 15 Stack Duration: 8s"
+        },
+        {
+          "title": "Body and Mind",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b64a42dbb01db664372f_Body%20and%20Mind%20(Amara).webp",
+          "description": "Killing an enemy adds extra [Attuned Element] Area Skill Damage to your Melee Damage for a short time. Duration: 12s"
+        },
+        {
+          "title": "Free the Soul",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bcb6be566b5a010d0704_Free%20the%20Soul%20(Amara).webp",
+          "description": "Killing a frozen enemy, sends out 2 homing splinters at an enemy, dealing Cryo Area Skill Damage. Cooldown: 3s"
+        },
+        {
+          "title": "Atman",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b4bcbca35ec50eb8630a_Atman%20(Amara).webp",
+          "description": "Increases your Skill Damage."
+        },
+        {
+          "title": "Clear the Mind",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b75cca782680478c3f4e_Clear%20the%20Mind%20(Amara).webp",
+          "description": "Killing an enemy lets you ignore enemies' Elemental Resistance for a short time. Duration: 8s Elemental Immunity is unaffected!"
+        }
+      ]
+    }
+  ],
+  "actionSkills": [
+    {
+      "title": "Phaseslam",
+      "description": "Action skill for Amara. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c48a5a7c8ff69c6fe8df_Phaseslam%20(Amara).webp"
+    },
+    {
+      "title": "Fracture",
+      "description": "Action skill for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bca7be566b5a010ce379_Fracture%20(Amara).webp"
+    },
+    {
+      "title": "Downfall",
+      "description": "Action skill for Amara. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9e95f940d47fb9becb6_Downfall%20(Amara).webp"
+    },
+    {
+      "title": "Phasecast",
+      "description": "Action skill for Amara. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c470d1c0205e9c6f3bfa_Phasecast%20(Amara).webp"
+    },
+    {
+      "title": "Deliverance",
+      "description": "Action skill for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b91f66b126fda1441e88_Deliverance%20(Amara).webp"
+    },
+    {
+      "title": "Reverberation",
+      "description": "Action skill for Amara. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6d25a7c8ff69c7277af_Reverberation%20(Amara).webp"
+    },
+    {
+      "title": "Tandava",
+      "description": "Action skill for Amara. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb1158f6038b2aca26c4_Tandava%20(Amara).webp"
+    },
+    {
+      "title": "Phasegrasp",
+      "description": "Action skill for Amara. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c47c58fe75c6660f31a4_Phasegrasp%20(Amara).webp"
+    },
+    {
+      "title": "The Eternal Fist",
+      "description": "Action skill for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb6075a4071825ba8389_The%20Eternal%20Fist%20(Amara).webp"
+    },
+    {
+      "title": "Ties that Bind",
+      "description": "Action skill for Amara. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cbd4bd56de20c6f1580c_Ties%20that%20Bind%20(Amara).webp"
+    },
+    {
+      "title": "Fist Over Matter",
+      "description": "Action skill for Amara. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bc155a7c8ff69c672703_Fist%20Over%20Matter%20(Amara).webp"
+    },
+    {
+      "title": "Phaseflare",
+      "description": "Action skill for Amara. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c476e5685905ad3b1333_Phaseflare%20(Amara).avif"
+    },
+    {
+      "title": "Glow Up",
+      "description": "Action skill for Amara. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd81055ab00edf3d0f44_Glow%20Up%20(Amara).avif"
+    },
+    {
+      "title": "Shooting Star",
+      "description": "Action skill for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c90ebe17b6544a4a2f13_Shooting%20Star%20(Amara).avif"
+    },
+    {
+      "title": "Light Fantastic",
+      "description": "Action skill for Amara. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c14d58fe75c6660bec81_Light%20Fantastic%20(Amara).webp"
+    }
+  ],
+  "augments": [
+    {
+      "title": "Revelation",
+      "description": "Augment for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6c508cf3526fde47e4b_Revelation%20(Amara).webp"
+    },
+    {
+      "title": "Glamour",
+      "description": "Augment for Amara. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd73e5685905ad344bde_Glamour%20(Amara).webp"
+    },
+    {
+      "title": "Soul Sap",
+      "description": "Augment for Amara. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c97bbfb0eee685d99cd4_Soul%20Sap%20(Amara).webp"
+    },
+    {
+      "title": "Stillness of Mind",
+      "description": "Augment for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca1121d0652d090b1932_Stillness%20of%20Mind%20(Amara).webp"
+    },
+    {
+      "title": "Allure",
+      "description": "Augment for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b439ca78268047894ddd_Allure%20(Amara).webp"
+    },
+    {
+      "title": "Expedite",
+      "description": "Augment for Amara. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb4f3a44b053aa21a21b_Expedite%20(Amara).avif"
+    }
+  ],
+  "elements": [
+    {
+      "title": "Blight Tiger",
+      "description": "Element for Amara. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b5c75a7c8ff69c60bae2_Blight%20Tiger%20(Amara).webp"
+    },
+    {
+      "title": "Shockra",
+      "description": "Element for Amara. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c90771f8213468c763ea_Shockra%20(Amara).webp"
+    },
+    {
+      "title": "Soulfire",
+      "description": "Element for Amara. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9813a44b053aa2fe5e2_Soulfire%20(Amara).webp"
+    },
+    {
+      "title": "Cold Hearted",
+      "description": "Element for Amara. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b795882ad7a75c0956d6_Cold%20Hearted%20(Amara).avif"
+    }
+  ]
+}

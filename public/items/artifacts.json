@@ -1,0 +1,506 @@
+{
+  "artifacts": [
+    {
+      "name": "Commander Planetoid",
+      "type": "Melee",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/commander-planetoid-bl3",
+      "sources": [
+        {
+          "source": "Sheega",
+          "type": "unique-enemy",
+          "location": "Devil's Razor"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Company Man",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Director's Cut",
+      "link": "/bonus-item/company-man-bl3",
+      "sources": [
+        {
+          "source": "Hemovorous",
+          "type": "raid-boss",
+          "location": "Darkthirst Dominion"
+        },
+        {
+          "source": "Director's Pool",
+          "type": "loot-pool",
+          "location": "DLC 6 Wide"
+        }
+      ]
+    },
+    {
+      "name": "Cosmic Crater",
+      "type": "Slam",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/cosmic-crater-bl3",
+      "sources": [
+        {
+          "source": "Artemis",
+          "type": "unique-enemy",
+          "location": "Floodmoor Basin"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Deathless",
+      "type": "Universal",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/deathless-bl3",
+      "sources": [
+        {
+          "source": "Phoenix",
+          "type": "challenge-enemy",
+          "location": "The Splinterlands"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Deathrattle",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Designer's Cut",
+      "link": "/bonus-item/deathrattle-bl3",
+      "sources": [
+        {
+          "source": "Dreadnought Drydock",
+          "type": "chest",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Heavyweight Harker",
+          "type": "boss",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Designer's Pool",
+          "type": "loot-pool",
+          "location": "Stormblind Complex"
+        }
+      ]
+    },
+    {
+      "name": "Electric Banjo",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/electric-banjo-bl3",
+      "sources": [
+        {
+          "source": "Psychobillies",
+          "type": "challenge-enemy",
+          "location": "Ambermire"
+        }
+      ]
+    },
+    {
+      "name": "Grave",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/grave-bl3",
+      "sources": [
+        {
+          "source": "Graveward",
+          "type": "boss",
+          "location": "The Floating Tomb"
+        }
+      ]
+    },
+    {
+      "name": "Holy Grail",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Designer's Cut",
+      "link": "/bonus-item/holy-grail-bl3",
+      "sources": [
+        {
+          "source": "Dreadnought Drydock",
+          "type": "chest",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Heavyweight Harker",
+          "type": "boss",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Designer's Pool",
+          "type": "loot-pool",
+          "location": "Stormblind Complex"
+        }
+      ]
+    },
+    {
+      "name": "Launch Pad",
+      "type": "Slam",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/launch-pad-bl3",
+      "sources": [
+        {
+          "source": "Red Rain",
+          "type": "mini-boss",
+          "location": "Slaughterstar 3000"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Loaded Dice",
+      "type": "Universal",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/loaded-dice-bl3",
+      "sources": [
+        {
+          "source": "Agonizer 9000, Pain & Terror",
+          "type": "boss",
+          "location": "Guts of Carnivora"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Lunacy",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Guns, Love, and Tentacles",
+      "link": "/bonus-item/lunacy-bl3",
+      "sources": [
+        {
+          "source": "Empowered Grawn",
+          "type": "boss",
+          "location": "Negul Neshai"
+        }
+      ]
+    },
+    {
+      "name": "Moxxi's Endowment",
+      "type": "Universal",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/moxxis-endowment-bl3",
+      "sources": [
+        {
+          "source": "The Tink Train",
+          "type": "unique-enemy",
+          "location": "Guts of Carnivora"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Mysterious Artifact",
+      "type": "Unique",
+      "rarity": "Epic",
+      "content": "Director's Cut",
+      "link": "/bonus-item/mysterious-artifact-bl3",
+      "sources": [
+        {
+          "source": "Horror at Scryer's Crypt",
+          "type": "quest",
+          "location": "Scryer's Crypt"
+        }
+      ]
+    },
+    {
+      "name": "Otto Idol",
+      "type": "Universal",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/otto-idol-bl3",
+      "sources": [
+        {
+          "source": "Rachel the Anointed",
+          "type": "unique-enemy",
+          "location": "Cathedral of the Twin Gods"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix Tears",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/phoenix-tears-bl3",
+      "sources": [
+        {
+          "source": "Phoenix",
+          "type": "challenge-enemy",
+          "location": "The Splinterlands"
+        }
+      ]
+    },
+    {
+      "name": "Pull Out Method",
+      "type": "Slam",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/pull-out-method-bl3",
+      "sources": [
+        {
+          "source": "DJ Deadsk4g",
+          "type": "challenge-enemy",
+          "location": "The Splinterlands"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Road Warrior",
+      "type": "Unique",
+      "rarity": "Epic",
+      "content": "Base Game",
+      "link": "/bonus-item/road-warrior-bl3",
+      "sources": [
+        {
+          "source": "Blood Drive",
+          "type": "quest",
+          "location": "The Droughts"
+        },
+        {
+          "source": "Veteran Rewards",
+          "type": "vendor",
+          "location": "Sanctuary III"
+        }
+      ]
+    },
+    {
+      "name": "Rocket Boots",
+      "type": "Slide",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/rocket-boots-bl3",
+      "sources": [
+        {
+          "source": "Blue Fire",
+          "type": "mini-boss",
+          "location": "Slaughterstar 3000"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Safegaurd",
+      "type": "Slam",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/safeguard-bl3",
+      "sources": [
+        {
+          "source": "Big Donny & The Big-D",
+          "type": "unique-enemy",
+          "location": "The Splinterlands"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Shlooter",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Director's Cut",
+      "link": "/bonus-item/shlooter-bl3",
+      "sources": [
+        {
+          "source": "Vault Card #2",
+          "type": "challenge",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Splatter Gun",
+      "type": "Slide",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/splatter-gun-bl3",
+      "sources": [
+        {
+          "source": "Road Dog",
+          "type": "unique-enemy",
+          "location": "The Splinterlands"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "Static Charge",
+      "type": "Melee",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/static-charge-bl3",
+      "sources": [
+        {
+          "source": "Artemis",
+          "type": "unique-enemy",
+          "location": "Floodmoor Basin"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "The Pearl of Ineffable Knowledge",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Guns, Love, and Tentacles",
+      "link": "/bonus-item/the-pearl-of-ineffable-knowledge-bl3",
+      "sources": [
+        {
+          "source": "The Call of Gythian",
+          "type": "quest",
+          "location": "Heart's Desire"
+        }
+      ]
+    },
+    {
+      "name": "Toboggan",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Designer's Cut",
+      "link": "/bonus-item/toboggan-bl3",
+      "sources": [
+        {
+          "source": "Plunderdome",
+          "type": "chest",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Heavyweight Harker",
+          "type": "boss",
+          "location": "Stormblind Complex"
+        },
+        {
+          "source": "Designer's Pool",
+          "type": "loot-pool",
+          "location": "Stormblind Complex"
+        }
+      ]
+    },
+    {
+      "name": "Unleash the Dragon",
+      "type": "Unique",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/unleash-the-dragon-bl3",
+      "sources": [
+        {
+          "source": "El Dragon Jr.",
+          "type": "unique-enemy",
+          "location": "Jakobs Estate"
+        }
+      ]
+    },
+    {
+      "name": "Vendetta",
+      "type": "Unique",
+      "rarity": "Epic",
+      "content": "Bounty of Blood",
+      "link": "/bonus-item/vendetta-bl3",
+      "sources": [
+        {
+          "source": "The Name of the Law",
+          "type": "quest",
+          "location": "Ashfall Peaks"
+        }
+      ]
+    },
+    {
+      "name": "Victory Rush",
+      "type": "Universal",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/victory-rush-bl3",
+      "sources": [
+        {
+          "source": "Azalea",
+          "type": "unique-enemy",
+          "location": "Jakobs Estate"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    },
+    {
+      "name": "White Elephant",
+      "type": "Melee",
+      "rarity": "Legendary",
+      "content": "Base Game",
+      "link": "/bonus-item/white-elephant-bl3",
+      "sources": [
+        {
+          "source": "Agonizer 9000, Pain & Terror",
+          "type": "boss",
+          "location": "Guts of Carnivora"
+        },
+        {
+          "source": "Artifact Pool",
+          "type": "loot-pool",
+          "location": "World Wide"
+        }
+      ]
+    }
+  ]
+}

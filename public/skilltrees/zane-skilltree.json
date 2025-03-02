@@ -1,0 +1,496 @@
+{
+  "abilities": [
+    {
+      "skillTreeName": "Under Cover",
+      "skills": [
+        {
+          "title": "Adrenaline",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3ccbe566b5a01043d54_Adrenaline%20(Zane).webp",
+          "description": "Increases your Skill Cooldown Rate. The fuller your Shield the greater this bonus."
+        },
+        {
+          "title": "Hearty Stock",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be90d23cc7943991cfd4_Hearty%20Stock%20(Zane).webp",
+          "description": "Increases your Maximum Shield."
+        },
+        {
+          "title": "Ready for Action",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c60d9f516e066acb547b_Ready%20for%20Action%20(Zane).webp",
+          "description": "Improves your Shield Recharge Rate and Delay."
+        },
+        {
+          "title": "Brain Freeze",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6984133b5962d7e3e5a_Brain%20Freeze%20(Zane).webp",
+          "description": "Scoring a Critical Hit has a chance to Slow the target. This stacks until the target is Frozen*."
+        },
+        {
+          "title": "Stiff Upper Lip",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca0a75a4071825b94933_Stiff%20Upper%20Lip%20(Zane).webp",
+          "description": "Taking damage, causes you to develop Resistance to that damage type."
+        },
+        {
+          "title": "Rise to the Occasion",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6e7366fe5c8cbc8d352_Rise%20to%20the%20Occasion%20(Zane).webp",
+          "description": "You gain passive Health Regeneration. The lower your shield the greater this bonus."
+        },
+        {
+          "title": "Distributed Denial",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b97408cf3526fdd7498c_Distributed%20Denial%20(Zane).webp",
+          "description": "Barrier gains the effects of your currently equipped Shield. Your Barrier also shares these shield effects with nearby allies. You receive reduced effects."
+        },
+        {
+          "title": "Really Expensive Jacket",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6195f940d47fba7d928_Really%20Expensive%20Jacket%20(Zane).webp",
+          "description": "Reduces the Duration of Elemental Status Effects applied to you."
+        },
+        {
+          "title": "Best Served Cold",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b575be566b5a0105d478_Best%20Served%20Cold%20(Zane).webp",
+          "description": "Killing an enemy creates a Nova on you, dealing Cryo Area Skill Damage. Cooldown: 3s"
+        },
+        {
+          "title": "Futility Belt",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd2589a029c41fb9e4b9_Futility%20Belt%20(Zane).webp",
+          "description": "Killing an enemy, converts elemental damage you take to Physical Damage for a short time. Passively increases Physical Damage Resistance. Physical Resistance: +18% Duration: 8s"
+        },
+        {
+          "title": "Refreshment",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c64e4133b5962d8e577c_Refreshment%20(Zane).webp",
+          "description": "Dealing Damage to Frozen enemies heals you."
+        },
+        {
+          "title": "Calm, Cool, Collected",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6ef366fe5c8cbb8df5f_Calm%2C%20Cool%2C%20Collected%20(Zane).avif",
+          "description": "Freezing an enemy starts your Shield Recharge. If your Shield is full, you gain Health Regeneration for a short time. If your Health is full, your Skill Cooldowns or Durations reset. Max-Health Regen/s: 3% Regen Duration: 3s"
+        },
+        {
+          "title": "Nerves of Steel",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2be21d0652d0903d4a6_Nerves%20of%20Steel%20(Zane).webp",
+          "description": "While your Shield is full you stack Accuracy and Handling. All stacks are lost upon taking damage. Max Stacks: 15"
+        },
+        {
+          "title": "Confident Competence",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7ed08cf3526fdd5acfd_Confident%20Competence%20(Zane).webp",
+          "description": "While your Shield is active, you gain increased Gun Damage and Accuracy. The fuller your Shield the great this bonus. Gun Damage: up to +35% Accuracy: up to +50%"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Hitman",
+      "skills": [
+        {
+          "title": "Adrenaline",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3ccbe566b5a01043d54_Adrenaline%20(Zane).webp",
+          "description": "Increases your Skill Cooldown Rate. The fuller your Shield the greater this bonus."
+        },
+        {
+          "title": "Hearty Stock",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be90d23cc7943991cfd4_Hearty%20Stock%20(Zane).webp",
+          "description": "Increases your Maximum Shield."
+        },
+        {
+          "title": "Ready for Action",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c60d9f516e066acb547b_Ready%20for%20Action%20(Zane).webp",
+          "description": "Improves your Shield Recharge Rate and Delay."
+        },
+        {
+          "title": "Brain Freeze",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6984133b5962d7e3e5a_Brain%20Freeze%20(Zane).webp",
+          "description": "Scoring a Critical Hit has a chance to Slow the target. This stacks until the target is Frozen*."
+        },
+        {
+          "title": "Stiff Upper Lip",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca0a75a4071825b94933_Stiff%20Upper%20Lip%20(Zane).webp",
+          "description": "Taking damage, causes you to develop Resistance to that damage type."
+        },
+        {
+          "title": "Rise to the Occasion",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6e7366fe5c8cbc8d352_Rise%20to%20the%20Occasion%20(Zane).webp",
+          "description": "You gain passive Health Regeneration. The lower your shield the greater this bonus."
+        },
+        {
+          "title": "Distributed Denial",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b97408cf3526fdd7498c_Distributed%20Denial%20(Zane).webp",
+          "description": "Barrier gains the effects of your currently equipped Shield. Your Barrier also shares these shield effects with nearby allies. You receive reduced effects."
+        },
+        {
+          "title": "Really Expensive Jacket",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6195f940d47fba7d928_Really%20Expensive%20Jacket%20(Zane).webp",
+          "description": "Reduces the Duration of Elemental Status Effects applied to you."
+        },
+        {
+          "title": "Best Served Cold",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b575be566b5a0105d478_Best%20Served%20Cold%20(Zane).webp",
+          "description": "Killing an enemy creates a Nova on you, dealing Cryo Area Skill Damage. Cooldown: 3s"
+        },
+        {
+          "title": "Futility Belt",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd2589a029c41fb9e4b9_Futility%20Belt%20(Zane).webp",
+          "description": "Killing an enemy, converts elemental damage you take to Physical Damage for a short time. Passively increases Physical Damage Resistance. Physical Resistance: +18% Duration: 8s"
+        },
+        {
+          "title": "Refreshment",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c64e4133b5962d8e577c_Refreshment%20(Zane).webp",
+          "description": "Dealing Damage to Frozen enemies heals you."
+        },
+        {
+          "title": "Calm, Cool, Collected",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6ef366fe5c8cbb8df5f_Calm%2C%20Cool%2C%20Collected%20(Zane).avif",
+          "description": "Freezing an enemy starts your Shield Recharge. If your Shield is full, you gain Health Regeneration for a short time. If your Health is full, your Skill Cooldowns or Durations reset. Max-Health Regen/s: 3% Regen Duration: 3s"
+        },
+        {
+          "title": "Nerves of Steel",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2be21d0652d0903d4a6_Nerves%20of%20Steel%20(Zane).webp",
+          "description": "While your Shield is full you stack Accuracy and Handling. All stacks are lost upon taking damage. Max Stacks: 15"
+        },
+        {
+          "title": "Confident Competence",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7ed08cf3526fdd5acfd_Confident%20Competence%20(Zane).webp",
+          "description": "While your Shield is active, you gain increased Gun Damage and Accuracy. The fuller your Shield the great this bonus. Gun Damage: up to +35% Accuracy: up to +50%"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "Doubled Agent",
+      "skills": [
+        {
+          "title": "Synchronicity",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4caea366fe5c8cbcc7e02_Synchronicity%20(Zane).webp",
+          "description": "Each active Action Skill increases your Gun Damage."
+        },
+        {
+          "title": "Praemunitus",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c4ed3a44b053aa2b586e_Praemunitus%20(Zane).webp",
+          "description": "Increases your and Clone's Magazine Size."
+        },
+        {
+          "title": "Borrowed Time",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b67d75a4071825a6664d_Borrowed%20Time%20(Zane).webp",
+          "description": "Each active Action Skill* increases Action Skill Duration."
+        },
+        {
+          "title": "Donnybrook",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9b466b126fda144ba86_Donnybrook%20(Zane).webp",
+          "description": "Killing an enemy stacks your and Clone's Health Regeneration and Gun Damage for a short time. Clone kills also trigger this skill. Max Stacks: 2 Stack Duration: 8s"
+        },
+        {
+          "title": "Fractal Frags",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bca0c9a2047edbf0d42b_Fractal%20Frags%20(Zane).webp",
+          "description": "Killing an enemy gives Clone a chance to throw a copy of your equipped grenade. On Digi-Clone start and end, Clone always throws a grenade. Chance: 30%"
+        },
+        {
+          "title": "Duct Tape Mod",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba663a44b053aa20c2dc_Duct%20Tape%20Mod%20(Zane).webp",
+          "description": "You become Immune to your own damage dealt. Your 1st shot after a reload has a chance to throw your equipped grenade. Free grenades if your reserve is empty. This skill has a short cooldown. Cooldown: 8s"
+        },
+        {
+          "title": "Quick Breather",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c56889a029c41fc2bcae_Quick%20Breather%20(Zane).webp",
+          "description": "Swapping places with Clone heals Clone for 50% Missing-Health and starts your Shield Recharge."
+        },
+        {
+          "title": "Pocket Full of Grenades",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c4b9be566b5a0114a50c_Pocket%20Full%20of%20Grenades%20(Zane).webp",
+          "description": "Killing an enemy grants stacking Grenade Regeneration for a short time. Max Stacks: 2 Stack Duration: 8s"
+        },
+        {
+          "title": "Old-U",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c393bca35ec50ec64341_Old-U%20(Zane).webp",
+          "description": "You can now press [action-skill] to sacrifice Clone to gain gain a full health Second Wind. Max-Health Restored: 100%"
+        },
+        {
+          "title": "Supersonic Man",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4caaabca35ec50ecd3d15_Supersonic%20Man%20(Zane).webp",
+          "description": "Each active Action Skill* increases your Movement Speed."
+        },
+        {
+          "title": "Like a Ghost",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c163be566b5a01113d8d_Like%20a%20Ghost%20(Zane).webp",
+          "description": "You and Clone gain a chance to Evade Bullets. Activating an Action Skill stacks extra Evasion Chance for a short time. Max Stacks: 2 Stack Duration: 8s"
+        },
+        {
+          "title": "Boom. Enhance.",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b670bca35ec50eb9f144_Boom.%20Enhance.%20(Zane).webp",
+          "description": "Activating Digi-Clone consumes up to 3 grenades and increases Clone's Fire Rate, Gun Damage, Reload Speed, Max-Health, and Duration. Fire Rate: +5% /grenade Gun Damage: +20% /grenade Reload Speed: +45% /grenade Max-Health: +81% /grenade Duration: +25% /grenade"
+        },
+        {
+          "title": "Trick of the Light",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc0a3a44b053aa32506e_Trick%20of%20the%20Light%20(Zane).webp",
+          "description": "You deal Bonus Cryo Damage to enemies who aren't targeting you. SNTNL always deals Bonus Cryo Damage."
+        },
+        {
+          "title": "Double Barrel",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9c058f6038b2ab82b0c_Double%20Barrel%20(Zane).webp",
+          "description": "Activating Digi-Clone now also clones your held Gun, but with less damage. Swapping places with Clone increases your and Clone's Gun Damage. Gun Damage: +25% Clone: Gun Damage: -30%"
+        }
+      ]
+    },
+    {
+      "skillTreeName": "The Professional",
+      "skills": [
+        {
+          "title": "Man of Focus",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c1ebbca35ec50ec4a15f_Man%20of%20Focus%20(Zane).avif",
+          "description": "Activating an Action Skill grants you stacking Accuracy and Handling for a short time. Max Stacks: 10 Stack Duration: 12s"
+        },
+        {
+          "title": "Renegade",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c675d1c0205e9c718ab9_Renegade%20(Zane).webp",
+          "description": "Scoring a Critical Hit, grants you Health Regeneration for a short time. Duration: 12s"
+        },
+        {
+          "title": "Déjà Vu",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba7ad23cc794398e0b33_D%C3%A9j%C3%A0%20Vu%20(Zane).avif",
+          "description": "Killing an enemy with a Critical Hit has a chance to instantly reload 1 ammo*."
+        },
+        {
+          "title": "Headsman's Hand",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be83055ab00edf3e0e5e_Headsman%27s%20Hand%20(Zane).webp",
+          "description": "Killing an enemy grants stacking Critical Damage for a short time. Max Stacks: 2 Stack Duration: 8s"
+        },
+        {
+          "title": "Tunnel Vision",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cc1be5685905ad44079b_Tunnel%20Vision%20(Zane).webp",
+          "description": "While moving, you gain increased Accuracy and Handling. The faster you move, the greater this bonus."
+        },
+        {
+          "title": "Commitment",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7d4a5f2e8bea5f54496_Commitment%20(Zane).webp",
+          "description": "Killing an enemy grants stacking Gun Damage and Skill Cooldown Rate for a short time. Max Stacks: 2 Stack Duration: 8s"
+        },
+        {
+          "title": "Fugitive",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd0c366fe5c8cbbeaed2_Fugitive%20(Zane).webp",
+          "description": "You can now sprint and shoot at the same time."
+        },
+        {
+          "title": "Domino Effect",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9ad42dbb01db667918c_Domino%20Effect%20(Zane).webp",
+          "description": "Scoring a Critical Hit, increases your Fire Rate, Reload Speed and Burst-Fire Delay for a short time. Scoring a Action Skill Critical hit doubles this bonus. Duration: 8s"
+        },
+        {
+          "title": "The Art of War",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cb5108cf3526fde8de1b_The%20Art%20of%20War%20(Zane).webp",
+          "description": "Activating an Action Skill or an Action Skill Ability stacks up Gun Damage. Your next shot consumes all stacks. Max Stacks: 10"
+        },
+        {
+          "title": "Sheer Will",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8e794e25710d20d9b41_Sheer%20Will%20(Zane).avif",
+          "description": "Increases your Skill Cooldown Rate. Scoring a Critical Hit stacks extra Cooldown Rate*. Max Stacks: 15 Stack Duration: 8s"
+        },
+        {
+          "title": "Eraser",
+          "maxPoints": 3,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bb1c055ab00edf3a56f1_Eraser%20(Zane).avif",
+          "description": "Your and Clone's Critical Hits Pierce enemies once, dealing increasing Damage*."
+        },
+        {
+          "title": "Our Man Flynt",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c3f2882ad7a75c1721ac_Our%20Man%20Flynt%20(Zane).webp",
+          "description": "Aiming adds Bonus Damage to your guns and scoring a critical hit applies their Status Effect. Bonus Damage: +25%"
+        }
+      ]
+    }
+  ],
+  "actionSkills": [
+    {
+      "id": 1,
+      "name": "Barrier",
+      "description": "Zane throws up a shield that can block enemy projectiles. Zane and his allies can shoot through the barrier, dealing increased Gun Damage. Pressing [action-skill] or [grenade] while Barrier is active picks up and holds the Barrier, but the size and bonuses are decreased. Pressing [action-skill] or [grenade] again places the Barrier. Duration: 9s Cooldown: 24s",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b52d5f940d47fb970de3_Barrier%20(Zane).webp"
+    },
+    {
+      "id": 2,
+      "name": "Digi-Clone",
+      "description": "Zane deploys a holographic decoy of himself. The Clone stays in place, but distracts and fires at enemies. Pressing [action-skill] or [grenade] while the Clone is active causes Zane and the Clone to swap places. Duration: 15s Cooldown: 28s",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b94d39f5ae1e37605b61_Digi-Clone%20(Zane).webp"
+    },
+    {
+      "id": 3,
+      "name": "SNTNL",
+      "description": "Zane summons a flying drone to send forward and attack enemies with a machine gun. Pressing [action-skill] or [grenade] while SNTNL is active causes it to attack the enemy under Zane's crosshairs. Duration: 24s Cooldown: 60s",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c7305c8901d87ec6c6b8_SNTNL%20(Zane).webp"
+    },
+    {
+      "id": 4,
+      "name": "MNTIS Shoulder Cannon",
+      "description": "Zane equips a shoulder-mounted cannon that can fire powerful shots. Pressing [action-skill] or [grenade] while MNTIS Shoulder Cannon is active causes Zane to fire a missile from the cannon. Cooldown: 18s",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c1aa39f5ae1e3768de6c_MNTIS%20Shoulder%20Cannon%20(Zane).avif"
+    }
+  ],
+  "augments": [
+    {
+      "actionSkillId": 1,
+      "title": "Charged Relay",
+      "description": "Augment for Barrier action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b72287a8d9a3998b2222_Charged%20Relay%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 1,
+      "title": "Nanites or Some Shite",
+      "description": "Augment for Barrier action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2b8bca35ec50ec56308_Nanites%20or%20Some%20Shite%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 1,
+      "title": "All-rounder",
+      "description": "Augment for Barrier action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b433ca7826804789482e_All-rounder%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 1,
+      "title": "Retaliation",
+      "description": "Augment for Barrier action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6b708cf3526fde4724c_Retaliation%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 1,
+      "title": "Deterrence Field",
+      "description": "Augment for Barrier action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b94058fe75c666044ad7_Deterrence%20Field%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 2,
+      "title": "Binary System",
+      "description": "Augment for Digi-Clone action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b58e882ad7a75c075c05_Binary%20System%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 2,
+      "title": "Schadenfreude",
+      "description": "Augment for Digi-Clone action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8255f940d47fbaa0f34_Schadenfreude%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 2,
+      "title": "Which One's Real?",
+      "description": "Augment for Digi-Clone action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f1ce7a54cb2f3cd5329c16_Which%20One%27s%20Real%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 2,
+      "title": "Doppelbanger",
+      "description": "Augment for Digi-Clone action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b9babe566b5a010a0df6_Doppelbanger%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 2,
+      "title": "Digital Distribution",
+      "description": "Augment for Digi-Clone action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b953d1c0205e9c64b455_Digital%20Distribution%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 3,
+      "title": "Winter's Drone",
+      "description": "Augment for SNTNL action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cde894e25710d2127125_Winter%27s%20Drone%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 3,
+      "title": "Bad Dose",
+      "description": "Augment for SNTNL action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b5134133b5962d7c6f3e_Bad%20Dose%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 3,
+      "title": "Static Field",
+      "description": "Augment for SNTNL action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c9f089a029c41fc763de_Static%20Field%20(Zane).avif"
+    },
+    {
+      "actionSkillId": 3,
+      "title": "Boomsday",
+      "description": "Augment for SNTNL action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b67694e25710d2fc0879_Boomsday%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 3,
+      "title": "Almighty Ordnance",
+      "description": "Augment for SNTNL action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b440ca782680478953ad_Almighty%20Ordnance%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 4,
+      "title": "Colder Shoulder",
+      "description": "Augment for MNTIS Shoulder Cannon action skill. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7ae71f8213468b5e719_Colder%20Shoulder%20(Zane).avif"
+    },
+    {
+      "actionSkillId": 4,
+      "title": "Wetwork",
+      "description": "Augment for MNTIS Shoulder Cannon action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d258142b815fddf7c203_Wetwork%20(Zane).avif"
+    },
+    {
+      "actionSkillId": 4,
+      "title": "Brain Drain",
+      "description": "Augment for MNTIS Shoulder Cannon action skill. Available at level 10.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b691bca35ec50eba0ed3_Brain%20Drain%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 4,
+      "title": "No Way Out",
+      "description": "Augment for MNTIS Shoulder Cannon action skill. Available at level 15.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2f85a7c8ff69c6e18d3_No%20Way%20Out%20(Zane).webp"
+    },
+    {
+      "actionSkillId": 4,
+      "title": "Proliferation",
+      "description": "Augment for MNTIS Shoulder Cannon action skill. Available at level 20.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c52c58fe75c6660ff44b_Proliferation%20(Zane).avif"
+    }
+  ]
+}
