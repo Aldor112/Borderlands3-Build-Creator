@@ -3,7 +3,14 @@
 import getWeapons from "@/actions/get-weapons";
 import { useEffect, useState } from "react";
 
-export default function PageWeapons() {
+export default function PageWeapons({
+  show,
+  onSendWeapons,
+}: {
+  show: boolean;
+  onSendWeapons?: any;
+}) {
+  const [selectedWeapons, setSelectedWeaponsData] = useState<any[]>([]);
   const [weapons, setWeaponsData] = useState<any>(null);
   useEffect(() => {
     searchWeapons();
@@ -25,6 +32,20 @@ export default function PageWeapons() {
     );
     setWeaponsData({ weapons: filteredWeapons });
   };
+
+  const onAddWeapon = (weapon: any) => {
+    const duplicate = selectedWeapons.find((item) => item.name === weapon.name);
+
+    if (duplicate) {
+      return;
+    }
+
+    setSelectedWeaponsData([...selectedWeapons, weapon]);
+  };
+
+  const sendWeapons = () => {
+    onSendWeapons({ weapons: selectedWeapons });
+  };
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex gap-2">
@@ -35,6 +56,7 @@ export default function PageWeapons() {
         />
       </div>
       <div className="mt-7">
+        <button onClick={sendWeapons}>Save</button>
         <table className="table-auto overflow-auto">
           <thead>
             <tr>
@@ -45,6 +67,7 @@ export default function PageWeapons() {
               <th>Content</th>
               <th>Sources</th>
               <th></th>
+              {show ? <th></th> : null}
             </tr>
           </thead>
           <tbody>
@@ -74,6 +97,11 @@ export default function PageWeapons() {
                       See More
                     </a>
                   </td>
+                  {show ? (
+                    <td>
+                      <button onClick={() => onAddWeapon(weapon)}> add</button>
+                    </td>
+                  ) : null}
                 </tr>
               ))
             ) : (

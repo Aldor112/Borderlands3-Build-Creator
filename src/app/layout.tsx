@@ -31,7 +31,7 @@ export default function RootLayout({
         <div className="flex justify-start items-start h-full grow">
           <Sidebar />
         </div>
-        <div className="flex flex-col items-start w-full h-full p-8 grow">
+        <div className="flex flex-col items-start w-full h-full p-8 ">
           {children}
         </div>
       </body>

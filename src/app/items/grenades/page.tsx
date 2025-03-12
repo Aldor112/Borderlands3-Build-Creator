@@ -4,7 +4,14 @@ import getGrenades from "@/actions/get-grenades";
 import SourceComponent from "@/components/source/source";
 import { useEffect, useState } from "react";
 
-export default function PageGrenades() {
+export default function PageGrenades({
+  show,
+  onSendGrenades,
+}: {
+  show: boolean;
+  onSendGrenades?: any;
+}) {
+  const [selectedGrenades, setSelectedGrenades] = useState<any[]>([]);
   const [grenades, setGrenades] = useState<any>(null);
   useEffect(() => {
     searchGrenades();
@@ -29,6 +36,21 @@ export default function PageGrenades() {
     setGrenades({ grenades: { grenades: filteredGrenades } });
   };
 
+  const onAddGrenades = (grenade: any) => {
+    const duplicate = selectedGrenades.find(
+      (item) => item.name === grenade.name
+    );
+
+    if (duplicate) {
+      return;
+    }
+
+    setSelectedGrenades([...selectedGrenades, grenade]);
+  };
+
+  const sendGrenades = () => {
+    onSendGrenades({ grenades: { grenades: selectedGrenades } });
+  };
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex gap-2">
@@ -39,6 +61,7 @@ export default function PageGrenades() {
         />
       </div>
       <div className="mt-7">
+        <button onClick={sendGrenades}>Save</button>
         <table className="table-auto overflow-auto">
           <thead>
             <tr>
@@ -48,6 +71,7 @@ export default function PageGrenades() {
               <th>Elements</th>
               <th>Sources</th>
               <th></th>
+              {show ? <th></th> : null}
             </tr>
           </thead>
           <tbody>
@@ -76,6 +100,16 @@ export default function PageGrenades() {
                       See more
                     </a>
                   </td>
+                  {show ? (
+                    <td>
+                      <button
+                        className=""
+                        onClick={() => onAddGrenades(grenade)}
+                      >
+                        add
+                      </button>
+                    </td>
+                  ) : null}
                 </tr>
               ))
             ) : (

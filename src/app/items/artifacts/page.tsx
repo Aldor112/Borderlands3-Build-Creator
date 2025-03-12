@@ -4,7 +4,14 @@ import getArtifacts from "@/actions/get-artifacts";
 import SourceComponent from "@/components/source/source";
 import { useEffect, useState } from "react";
 
-export default function PageArtifacts() {
+export default function PageArtifacts({
+  show,
+  onSendArtifacts,
+}: {
+  show: boolean;
+  onSendArtifacts?: any;
+}) {
+  const [selectedArtifact, setSelectedArtifact] = useState<any[]>([]);
   const [artifacts, setArtifactsData] = useState<any>(null);
   useEffect(() => {
     searchArtifacts();
@@ -28,6 +35,20 @@ export default function PageArtifacts() {
     setArtifactsData({ artifacts: filteredArtifacts });
   };
 
+  const onAddArtifact = (artifact: any) => {
+    const duplicate = selectedArtifact.find(
+      (item) => item.name === artifact.name
+    );
+
+    if (duplicate) {
+      return;
+    }
+    setSelectedArtifact([...selectedArtifact, artifact]);
+  };
+
+  const sendArtifact = () => {
+    onSendArtifacts({ artifacts: selectedArtifact });
+  };
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex gap-2">
@@ -38,6 +59,7 @@ export default function PageArtifacts() {
         />
       </div>
       <div className="mt-7 ">
+        <button onClick={sendArtifact}>Save</button>
         <table className="table-auto overflow-auto">
           <thead>
             <tr>
@@ -46,6 +68,7 @@ export default function PageArtifacts() {
               <th>Content</th>
               <th>Sources</th>
               <th></th>
+              {show ? <th></th> : null}
             </tr>
           </thead>
           <tbody>
@@ -65,6 +88,16 @@ export default function PageArtifacts() {
                       See More
                     </a>
                   </td>
+                  {show ? (
+                    <td>
+                      <button
+                        className=""
+                        onClick={() => onAddArtifact(artifact)}
+                      >
+                        add
+                      </button>
+                    </td>
+                  ) : null}
                 </tr>
               ))
             ) : (

@@ -3,7 +3,14 @@
 import getShields from "@/actions/get-shields";
 import { useEffect, useState } from "react";
 
-export default function PageShield() {
+export default function PageShield({
+  show,
+  onSendShield,
+}: {
+  show: boolean;
+  onSendShield?: any;
+}) {
+  const [selectedShields, setSelectedShields] = useState<any[]>([]);
   const [shields, setShieldsData] = useState<any>(null);
   const searchShields = () => {
     getShields().then((data) => {
@@ -25,6 +32,18 @@ export default function PageShield() {
     setShieldsData({ shields: filteredShields });
   };
 
+  const onAddShield = (shield: any) => {
+    const duplicate = selectedShields.find((item) => item.name === shield.name);
+
+    if (duplicate) {
+      return;
+    }
+    setSelectedShields([...selectedShields, shield]);
+  };
+
+  const sendShield = () => {
+    onSendShield({ shields: selectedShields });
+  };
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex gap-2">
@@ -35,6 +54,7 @@ export default function PageShield() {
         />
       </div>
       <div className="mt-7">
+        <button onClick={sendShield}>Save</button>
         <table className="table-auto overflow-auto">
           <thead>
             <tr>
@@ -45,6 +65,7 @@ export default function PageShield() {
               <th>Content</th>
               <th>Sources</th>
               <th></th>
+              {show ? <th></th> : null}
             </tr>
           </thead>
           <tbody>
@@ -74,6 +95,11 @@ export default function PageShield() {
                       See More
                     </a>
                   </td>
+                  {show ? (
+                    <td>
+                      <button onClick={() => onAddShield(shield)}>add</button>
+                    </td>
+                  ) : null}
                 </tr>
               ))
             ) : (

@@ -2,7 +2,14 @@
 import getClassMods from "@/actions/get-class-mods";
 import { useEffect, useState } from "react";
 
-export default function PageClassMods() {
+export default function PageClassMods({
+  show,
+  onSendClassMods,
+}: {
+  show: boolean;
+  onSendClassMods?: any;
+}) {
+  const [selectedClassMods, setSelectedClassMods] = useState<any[]>([]);
   const [class_mods, setClassMods] = useState<any>(null);
   useEffect(() => {
     searchClassMods();
@@ -11,7 +18,6 @@ export default function PageClassMods() {
   const searchClassMods = () => {
     getClassMods().then((data) => {
       setClassMods(data);
-      console.log(data);
     });
   };
 
@@ -28,6 +34,21 @@ export default function PageClassMods() {
     setClassMods({ classMods: filteredClassMods });
   };
 
+  const onAddClassMods = (class_mod: any) => {
+    const duplicate = selectedClassMods.find(
+      (item) => item.name === class_mod.name
+    );
+
+    if (duplicate) {
+      return;
+    }
+
+    setSelectedClassMods([...selectedClassMods, class_mod]);
+  };
+
+  const sendClassMods = () => {
+    onSendClassMods({ classMods: selectedClassMods });
+  };
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex gap-2">
@@ -38,6 +59,7 @@ export default function PageClassMods() {
         />
       </div>
       <div className="mt-7">
+        <button onClick={sendClassMods}>Save</button>
         <table className="table-auto overflow-auto">
           <thead>
             <tr>
@@ -46,6 +68,7 @@ export default function PageClassMods() {
               <th>Content</th>
               <th>Sources</th>
               <th></th>
+              {show ? <th></th> : null}
             </tr>
           </thead>
           <tbody>
@@ -73,6 +96,16 @@ export default function PageClassMods() {
                       See More
                     </a>
                   </td>
+                  {show ? (
+                    <td>
+                      <button
+                        className=""
+                        onClick={() => onAddClassMods(class_mod)}
+                      >
+                        add
+                      </button>
+                    </td>
+                  ) : null}
                 </tr>
               ))
             ) : (
