@@ -26,14 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex gap-4 `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased grid grid-cols-[auto,1fr] gap-4`}
       >
-        <div className="flex justify-start items-start h-full grow">
+        <div className="h-full">
           <Sidebar />
         </div>
-        <div className="flex flex-col items-start w-full h-full p-8 ">
-          {children}
-        </div>
+        <div className="w-full h-full p-8">{children}</div>
       </body>
     </html>
   );

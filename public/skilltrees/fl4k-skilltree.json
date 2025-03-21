@@ -2,7 +2,7 @@
   "abilities": [
     {
       "skillTreeName": "Stalker",
-      "skills ": [
+      "skills": [
         {
           "title": "Self-Repairing System",
           "maxPoints": 5,

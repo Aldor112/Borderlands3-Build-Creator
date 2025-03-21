@@ -4,7 +4,11 @@ import PageClassMods from "@/app/items/class-mods/page";
 import PageGrenades from "@/app/items/grenades/page";
 import PageShield from "@/app/items/shields/page";
 import PageWeapons from "@/app/items/weapons/page";
+import AmaraSkilltree from "@/components/amara-skilltree/amaraSkilltree";
+import Fl4kSkilltree from "@/components/fl4k-skilltree/fl4kSkilltree";
+import MozeSkilltree from "@/components/moze-skilltree/mozeSkilltree";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import ZaneSkilltree from "@/components/zane-skilltree/zaneSkilltree";
 import { useState } from "react";
 
 export default function BuildsCreate() {
@@ -12,7 +16,6 @@ export default function BuildsCreate() {
 
   const handleBuildData = (data: any) => {
     setBuildData([...buildData, data]);
-    console.log("data que me llega", data);
   };
 
   const handleDownload = () => {
@@ -27,7 +30,7 @@ export default function BuildsCreate() {
   };
   return (
     <div>
-      <button onClick={handleDownload}>descargar JSON</button>
+      <button onClick={handleDownload}>Descargar Build en JSON</button>
       <Tabs className="w-full">
         <TabsList>
           <TabsTrigger value="skilltrees">SkillTrees</TabsTrigger>
@@ -65,7 +68,7 @@ export default function BuildsCreate() {
           ></PageArtifacts>
         </TabsContent>
         <TabsContent value="skilltrees">
-          <div>SkillTrees</div>
+          <ZaneSkilltree />
         </TabsContent>
       </Tabs>
     </div>

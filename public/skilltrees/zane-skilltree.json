@@ -93,88 +93,70 @@
       "skillTreeName": "Hitman",
       "skills": [
         {
-          "title": "Adrenaline",
+          "title": "Violent Speed",
           "maxPoints": 5,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b3ccbe566b5a01043d54_Adrenaline%20(Zane).webp",
-          "description": "Increases your Skill Cooldown Rate. The fuller your Shield the greater this bonus."
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd50142b815fddf2fbf5_Violent%20Speed%20(Zane).webp",
+          "description": "Killing an enemy grants stacking Movement Speed for a short time. Max Stacks: 2, Stack Duration: 8s"
         },
         {
-          "title": "Hearty Stock",
+          "title": "Cold Bore",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b78fbfb0eee685c86819_Cold%20Bore%20(Zane).webp",
+          "description": "Increases your Weapon Swap Speed. Swapping Weapons adds Bonus Cryo Damage* to your next shot. *Advanced Details on Skill Page."
+        },
+        {
+          "title": "Violent Momentum",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd3608cf3526fdeabff5_Violent%20Momentum%20(Zane).webp",
+          "description": "While moving, you gain increased Gun Damage*. The faster you move, the greater this bonus. *Benefits from Kill Skill Increases."
+        },
+        {
+          "title": "Cool Hand",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b8845f940d47fb9a7399_Cool%20Hand%20(Zane).webp",
+          "description": "Increases your Reload Speed. Killing an enemy grants extra stacking Reload Speed for a short time. Max Stacks: 2, Stack Duration: 8s"
+        },
+        {
+          "title": "Drone Delivery",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ba1158f6038b2ab87ed8_Drone%20Delivery%20(Zane).webp",
+          "description": "SNTNL can now drop your equipped Grenade on enemies for free. Cooldown: 15s"
+        },
+        {
+          "title": "Salvation",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c7ff58fe75c66612b391_Salvation%20(Zane).webp",
+          "description": "Killing an enemy, grants you Gun Damage Lifesteal for a short time. Duration: 8s"
+        },
+        {
+          "title": "Seein' Red",
+          "maxPoints": 1,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c8766ef461a95ef47a89_Seein%27%20Red%20(Zane).webp",
+          "description": "Activating an Action Skill also activates all your Kill Skills. Increases the Effect of your Kill Skill Bonuses. Kill Skill Bonuses: +15%"
+        },
+        {
+          "title": "Violent Violence",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4cd6e366fe5c8cbceea4a_Violent%20Violence%20(Zane).webp",
+          "description": "Killing an enemy grants stacking Fire Rate and Burst-Fire Delay for a short time. Max Stacks: 2, Stack Duration: 8s"
+        },
+        {
+          "title": "Playing Dirty",
+          "maxPoints": 5,
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c4b2be566b5a01149c1e_Playing%20Dirty%20(Zane).webp",
+          "description": "Killing an enemy has a chance to add 1 Extra Projectile to each of your next 5 shots. Triggering this effect early resets the shot count."
+        },
+        {
+          "title": "Good Misfortune",
           "maxPoints": 3,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4be90d23cc7943991cfd4_Hearty%20Stock%20(Zane).webp",
-          "description": "Increases your Maximum Shield."
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd93055ab00edf3d1db2_Good%20Misfortune%20(Zane).webp",
+          "description": "Killing an enemy extends your Action Skill Duration. This has diminishing returns."
         },
         {
-          "title": "Ready for Action",
-          "maxPoints": 5,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c60d9f516e066acb547b_Ready%20for%20Action%20(Zane).webp",
-          "description": "Improves your Shield Recharge Rate and Delay."
-        },
-        {
-          "title": "Brain Freeze",
-          "maxPoints": 5,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6984133b5962d7e3e5a_Brain%20Freeze%20(Zane).webp",
-          "description": "Scoring a Critical Hit has a chance to Slow the target. This stacks until the target is Frozen*."
-        },
-        {
-          "title": "Stiff Upper Lip",
-          "maxPoints": 3,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ca0a75a4071825b94933_Stiff%20Upper%20Lip%20(Zane).webp",
-          "description": "Taking damage, causes you to develop Resistance to that damage type."
-        },
-        {
-          "title": "Rise to the Occasion",
-          "maxPoints": 5,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6e7366fe5c8cbc8d352_Rise%20to%20the%20Occasion%20(Zane).webp",
-          "description": "You gain passive Health Regeneration. The lower your shield the greater this bonus."
-        },
-        {
-          "title": "Distributed Denial",
+          "title": "Death Follows Close",
           "maxPoints": 1,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b97408cf3526fdd7498c_Distributed%20Denial%20(Zane).webp",
-          "description": "Barrier gains the effects of your currently equipped Shield. Your Barrier also shares these shield effects with nearby allies. You receive reduced effects."
-        },
-        {
-          "title": "Really Expensive Jacket",
-          "maxPoints": 1,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c6195f940d47fba7d928_Really%20Expensive%20Jacket%20(Zane).webp",
-          "description": "Reduces the Duration of Elemental Status Effects applied to you."
-        },
-        {
-          "title": "Best Served Cold",
-          "maxPoints": 5,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b575be566b5a0105d478_Best%20Served%20Cold%20(Zane).webp",
-          "description": "Killing an enemy creates a Nova on you, dealing Cryo Area Skill Damage. Cooldown: 3s"
-        },
-        {
-          "title": "Futility Belt",
-          "maxPoints": 1,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bd2589a029c41fb9e4b9_Futility%20Belt%20(Zane).webp",
-          "description": "Killing an enemy, converts elemental damage you take to Physical Damage for a short time. Passively increases Physical Damage Resistance. Physical Resistance: +18% Duration: 8s"
-        },
-        {
-          "title": "Refreshment",
-          "maxPoints": 3,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c64e4133b5962d8e577c_Refreshment%20(Zane).webp",
-          "description": "Dealing Damage to Frozen enemies heals you."
-        },
-        {
-          "title": "Calm, Cool, Collected",
-          "maxPoints": 1,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b6ef366fe5c8cbb8df5f_Calm%2C%20Cool%2C%20Collected%20(Zane).avif",
-          "description": "Freezing an enemy starts your Shield Recharge. If your Shield is full, you gain Health Regeneration for a short time. If your Health is full, your Skill Cooldowns or Durations reset. Max-Health Regen/s: 3% Regen Duration: 3s"
-        },
-        {
-          "title": "Nerves of Steel",
-          "maxPoints": 3,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c2be21d0652d0903d4a6_Nerves%20of%20Steel%20(Zane).webp",
-          "description": "While your Shield is full you stack Accuracy and Handling. All stacks are lost upon taking damage. Max Stacks: 15"
-        },
-        {
-          "title": "Confident Competence",
-          "maxPoints": 1,
-          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b7ed08cf3526fdd5acfd_Confident%20Competence%20(Zane).webp",
-          "description": "While your Shield is active, you gain increased Gun Damage and Accuracy. The fuller your Shield the great this bonus. Gun Damage: up to +35% Accuracy: up to +50%"
+          "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b8dc21d0652d09fa8c80_Death%20Follows%20Close%20(Zane).webp",
+          "description": "Increases the Effect and Duration of your Kill Skill Bonuses. Kill Skill Bonuses: +25%, Kill Skill Duration: +7s"
         }
       ]
     },
