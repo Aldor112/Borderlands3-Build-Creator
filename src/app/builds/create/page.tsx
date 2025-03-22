@@ -68,7 +68,7 @@ export default function BuildsCreate() {
           ></PageArtifacts>
         </TabsContent>
         <TabsContent value="skilltrees">
-          <ZaneSkilltree />
+          <AmaraSkilltree />
         </TabsContent>
       </Tabs>
     </div>

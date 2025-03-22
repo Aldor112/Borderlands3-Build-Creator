@@ -334,50 +334,48 @@
     }
   ],
   "actionSkills": [
-    [
-      {
-        "id": 1,
-        "title": "Railgun",
-        "description": "Action skill for Moze. Available at level 0.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5b6055ab00edf4597e9_Railgun%20(Moze).webp"
-      },
-      {
-        "id": 2,
-        "title": "Bear Fist",
-        "description": "Action skill for Moze. Available at level 5.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b547882ad7a75c06e6f8_Bear%20Fist%20(Moze).webp"
-      },
-      {
-        "id": 3,
-        "title": "V-35 Grenade Launcher",
-        "description": "Action skill for Moze. Available at level 0.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccc094e25710d2116020_V-35%20Grenade%20Launcher%20(Moze).webp"
-      },
-      {
-        "id": 4,
-        "title": "Vanquisher Rocket Pod",
-        "description": "Action skill for Moze. Available at level 5.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccd687a8d9a399a0c333_Vanquisher%20Rocket%20Pod%20(Moze).webp"
-      },
-      {
-        "id": 5,
-        "title": "Minigun",
-        "description": "Action skill for Moze. Available at level 0.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c26008cf3526fddfced6_Minigun%20(Moze).webp"
-      },
-      {
-        "id": 6,
-        "title": "Salamander",
-        "description": "Action skill for Moze. Available at level 5.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1cb21d0652d0912a9b2_Salamander%20(Moze).webp"
-      },
-      {
-        "id": 7,
-        "title": "Iron Cub",
-        "description": "Action skill for Moze. Available at level 0.",
-        "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bfec6ef461a95eec0f7a_Iron%20Cub%20(Moze).avif"
-      }
-    ]
+    {
+      "id": 1,
+      "title": "Railgun",
+      "description": "Action skill for Moze. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c5b6055ab00edf4597e9_Railgun%20(Moze).webp"
+    },
+    {
+      "id": 2,
+      "title": "Bear Fist",
+      "description": "Action skill for Moze. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4b547882ad7a75c06e6f8_Bear%20Fist%20(Moze).webp"
+    },
+    {
+      "id": 3,
+      "title": "V-35 Grenade Launcher",
+      "description": "Action skill for Moze. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccc094e25710d2116020_V-35%20Grenade%20Launcher%20(Moze).webp"
+    },
+    {
+      "id": 4,
+      "title": "Vanquisher Rocket Pod",
+      "description": "Action skill for Moze. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4ccd687a8d9a399a0c333_Vanquisher%20Rocket%20Pod%20(Moze).webp"
+    },
+    {
+      "id": 5,
+      "title": "Minigun",
+      "description": "Action skill for Moze. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4c26008cf3526fddfced6_Minigun%20(Moze).webp"
+    },
+    {
+      "id": 6,
+      "title": "Salamander",
+      "description": "Action skill for Moze. Available at level 5.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4d1cb21d0652d0912a9b2_Salamander%20(Moze).webp"
+    },
+    {
+      "id": 7,
+      "title": "Iron Cub",
+      "description": "Action skill for Moze. Available at level 0.",
+      "imageUrl": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/64f4bfec6ef461a95eec0f7a_Iron%20Cub%20(Moze).avif"
+    }
   ],
   "augments": [
     {
