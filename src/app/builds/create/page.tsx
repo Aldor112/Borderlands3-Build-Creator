@@ -10,7 +10,12 @@ import MozeSkilltree from "@/components/moze-skilltree/mozeSkilltree";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ZaneSkilltree from "@/components/zane-skilltree/zaneSkilltree";
 import { useState } from "react";
-
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 export default function BuildsCreate() {
   const [buildData, setBuildData] = useState<any[]>([]);
 
@@ -68,7 +73,32 @@ export default function BuildsCreate() {
           ></PageArtifacts>
         </TabsContent>
         <TabsContent value="skilltrees">
-          <AmaraSkilltree />
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>AMARA</AccordionTrigger>
+              <AccordionContent>
+                <AmaraSkilltree />
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>ZANE</AccordionTrigger>
+              <AccordionContent>
+                <ZaneSkilltree />
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>MOZE</AccordionTrigger>
+              <AccordionContent>
+                <AmaraSkilltree />
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger>FL4K</AccordionTrigger>
+              <AccordionContent>
+                <AmaraSkilltree />
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </TabsContent>
       </Tabs>
     </div>
