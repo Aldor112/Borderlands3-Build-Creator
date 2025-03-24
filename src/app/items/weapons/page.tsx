@@ -20,7 +20,13 @@ export default function PageWeapons({
   }, []);
 
   const searchWeapons = () => {
-    setWeaponsData(originalWeapons);
+    originalWeapons ? setWeaponsData(originalWeapons) : callApiWeapons();
+  };
+
+  const callApiWeapons = () => {
+    getWeapons().then((data) => {
+      setWeaponsData(data);
+    });
   };
 
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {

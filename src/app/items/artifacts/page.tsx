@@ -20,9 +20,16 @@ export default function PageArtifacts({
   }, []);
 
   const searchArtifacts = () => {
-    setArtifactsData(originalArtifacts);
+    originalArtifacts
+      ? setArtifactsData(originalArtifacts)
+      : callApiArtifacts();
   };
 
+  const callApiArtifacts = () => {
+    getArtifacts().then((data) => {
+      setArtifactsData(data);
+    });
+  };
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     if (search.length === 0) {

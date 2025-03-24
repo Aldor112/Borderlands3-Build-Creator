@@ -18,9 +18,14 @@ export default function PageClassMods({
   }, []);
 
   const searchClassMods = () => {
-    setClassMods(originalClassMods);
+    originalClassMods ? setClassMods(originalClassMods) : callApiClassMods();
   };
 
+  const callApiClassMods = () => {
+    getClassMods().then((data) => {
+      setClassMods(data);
+    });
+  };
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     if (search.length === 0) {

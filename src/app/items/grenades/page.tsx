@@ -20,9 +20,14 @@ export default function PageGrenades({
   }, []);
 
   const searchGrenades = () => {
-    setGrenades(originalGrenades);
+    originalGrenades ? setGrenades(originalGrenades) : callApiGrenades();
   };
 
+  const callApiGrenades = () => {
+    getGrenades().then((data) => {
+      setGrenades(data);
+    });
+  };
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     if (search.length === 0) {
