@@ -77,25 +77,25 @@ export default function BuildsCreate() {
             <AccordionItem value="item-1">
               <AccordionTrigger>AMARA</AccordionTrigger>
               <AccordionContent>
-                <AmaraSkilltree />
+                <AmaraSkilltree onSendAmaraData={handleBuildData} />
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>ZANE</AccordionTrigger>
               <AccordionContent>
-                <ZaneSkilltree />
+                <ZaneSkilltree onSendZaneData={handleBuildData} />
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>MOZE</AccordionTrigger>
               <AccordionContent>
-                <AmaraSkilltree />
+                <MozeSkilltree onSendMozeData={handleBuildData} />
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>FL4K</AccordionTrigger>
               <AccordionContent>
-                <AmaraSkilltree />
+                <Fl4kSkilltree onSendFl4kData={handleBuildData} />
               </AccordionContent>
             </AccordionItem>
           </Accordion>

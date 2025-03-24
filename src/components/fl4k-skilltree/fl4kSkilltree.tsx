@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
 
-export default function Fl4kSkilltree() {
+export default function Fl4kSkilltree({
+  onSendFl4kData,
+}: {
+  onSendFl4kData: any;
+}) {
   const [trees, setTreesData] = useState<any | null>(null);
   const [selectedSkills, setSelectedSkills] = useState<any[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
@@ -49,11 +53,22 @@ export default function Fl4kSkilltree() {
     });
   };
 
+  const handleSendData = () => {
+    const data = {
+      fl4k: { skills: selectedSkills, options: selectedOptions },
+    };
+
+    onSendFl4kData(data);
+  };
+
   useEffect(() => {
     searchTrees();
   }, []);
   return trees?.fl4k ? (
     <div className="">
+      <button onClick={handleSendData} className="mb-8 mt-8 ">
+        Save skilltree
+      </button>
       <div className="flex flex-col gap-4 mb-12">
         <div className="flex gap-4">
           <CustomSelect
@@ -278,7 +293,7 @@ export default function Fl4kSkilltree() {
           </div>
         </div>
         <div className="blue col-span-1">
-          <h1 className="text-center">
+          <h1 className="text-center mb-4">
             {trees.fl4k.abilities[1].skillTreeName}
           </h1>
           <div className="grid grid-cols-3 gap-4">
@@ -489,7 +504,7 @@ export default function Fl4kSkilltree() {
           </div>
         </div>
         <div className="orange col-span-1">
-          <h1 className="text-center">
+          <h1 className="text-center mb-4">
             {trees.fl4k.abilities[2].skillTreeName}
           </h1>
           <div className="grid grid-cols-3 gap-4">
@@ -683,7 +698,7 @@ export default function Fl4kSkilltree() {
           </div>
         </div>
         <div className="purple col-span-1">
-          <h1 className="text-center">
+          <h1 className="text-center mb-4">
             {trees.fl4k.abilities[3].skillTreeName}
           </h1>
           <div className="grid grid-cols-3 gap-4">

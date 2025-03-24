@@ -3,7 +3,11 @@ import getSkilltrees from "@/actions/get-skilltrees";
 import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
-export default function MozeSkilltree() {
+export default function MozeSkilltree({
+  onSendMozeData,
+}: {
+  onSendMozeData: any;
+}) {
   const [trees, setTreesData] = useState<any | null>(null);
   const [selectedSkills, setSelectedSkills] = useState<any[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
@@ -51,8 +55,20 @@ export default function MozeSkilltree() {
     });
   };
 
+  const handleSendData = () => {
+    const data = {
+      moze: { skills: selectedSkills, options: selectedOptions },
+    };
+
+    onSendMozeData(data);
+  };
+
   return trees?.moze ? (
     <div className="">
+      <button onClick={handleSendData} className="mb-8 mt-8 ">
+        Save skilltree
+      </button>
+
       <div className="flex flex-col gap-4 mb-12">
         <div className="flex gap-4">
           <CustomSelect

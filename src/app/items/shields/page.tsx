@@ -49,13 +49,13 @@ export default function PageShield({
       <div className="flex gap-2">
         <input
           type="text"
-          placeholder="Search weapon..."
+          placeholder="Search Shield..."
           onChange={onSearchChange}
         />
       </div>
       <div className="mt-7">
         <button onClick={sendShield}>Save</button>
-        <table className="table-auto overflow-auto">
+        <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
               <th>Name</th>

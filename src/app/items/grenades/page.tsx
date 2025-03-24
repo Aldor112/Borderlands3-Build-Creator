@@ -62,7 +62,7 @@ export default function PageGrenades({
       </div>
       <div className="mt-7">
         <button onClick={sendGrenades}>Save</button>
-        <table className="table-auto overflow-auto">
+        <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
               <th>Name</th>

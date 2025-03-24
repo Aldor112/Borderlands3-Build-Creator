@@ -91,3 +91,90 @@ nav ul li ul{
     @apply bg-background text-foreground;
   }
 }
+
+
+
+.borderlands-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #1a1a1a;
+  color: #f4d03f;
+  border: 2px solid #f4d03f;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.borderlands-table th,
+.borderlands-table td {
+  padding: 10px;
+  border: 1px solid #f4d03f;
+ 
+}
+
+.borderlands-table th {
+  background-color: #2c2c2c;
+  color: #f4d03f;
+  font-size: 1.2em;
+}
+
+.borderlands-table tr:nth-child(even) {
+  background-color: #2c2c2c;
+}
+
+.borderlands-table tr:hover {
+  background-color: #3e3e3e;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  background-color: #1a1a1a;
+  color: #f4d03f;
+  border: 2px solid #f4d03f;
+  padding: 10px;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 1em;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ffffff;
+  background-color: #2c2c2c;
+}
+
+button {
+  background-color: #1a1a1a;
+  color: #f4d03f;
+  border: 2px solid #f4d03f;
+  padding: 10px 20px;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #3e3e3e;
+  color: #ffffff;
+}
+
+button:active {
+  background-color: #2c2c2c;
+  color: #f4d03f;
+}
+
+textarea {
+  background-color: #1a1a1a;
+  color: #f4d03f;
+  border: 2px solid #f4d03f;
+  padding: 10px;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 1em;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #ffffff;
+  background-color: #2c2c2c;
+}

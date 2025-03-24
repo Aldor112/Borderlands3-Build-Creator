@@ -65,19 +65,33 @@ export default function SkillBox({
     <HoverCard>
       <HoverCardTrigger asChild>
         <div className="flex items-center gap-2 flex-col">
-          <img src={imageUrl} alt={title} className="w-12 h-12" />
-          <div className="flex gap-2">
-            <button onClick={handleAddPoint}>+</button>
-            <p>{points}</p>
-            <button onClick={handleRemovePoint}>-</button>
+          <img
+            src={imageUrl}
+            alt={title}
+            className="w-16 h-16 rounded-md border border-gray-300 shadow-sm"
+          />
+          <div className="flex gap-4 items-center">
+            <button
+              onClick={handleRemovePoint}
+              className="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+            >
+              -
+            </button>
+            <p className="text-lg font-medium text-gray-700">{points}</p>
+            <button
+              onClick={handleAddPoint}
+              className="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600"
+            >
+              +
+            </button>
           </div>
         </div>
       </HoverCardTrigger>
-      <HoverCardContent className="w-80">
+      <HoverCardContent className="w-80 p-4 bg-white border border-gray-200 rounded shadow-lg">
         <div>
-          <h3 className="text-lg font-semibold">{title}</h3>
+          <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
         </div>
-        <p>{description}</p>
+        <p className="text-sm text-gray-600">{description}</p>
       </HoverCardContent>
     </HoverCard>
   );

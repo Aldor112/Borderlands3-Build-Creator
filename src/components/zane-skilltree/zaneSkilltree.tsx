@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
 
-export default function ZaneSkilltree() {
+export default function ZaneSkilltree({
+  onSendZaneData,
+}: {
+  onSendZaneData: any;
+}) {
   const [trees, setTreesData] = useState<any | null>(null);
   const [selectedSkills, setSelectedSkills] = useState<any[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
@@ -52,6 +56,15 @@ export default function ZaneSkilltree() {
       }
     });
   };
+
+  const handleSendData = () => {
+    const data = {
+      zane: { skills: selectedSkills, options: selectedOptions },
+    };
+
+    onSendZaneData(data);
+  };
+
   return trees?.zane ? (
     <div className="">
       <div className="flex flex-col gap-4 mb-12">

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
 
-export default function AmaraSkilltree() {
+export default function AmaraSkilltree({ onSendAmaraData }: any) {
   const [trees, setTreesData] = useState<any | null>(null);
   const [selectedSkills, setSelectedSkills] = useState<any[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
@@ -47,6 +47,13 @@ export default function AmaraSkilltree() {
       }
     });
   };
+  const handleSendData = () => {
+    const data = {
+      amara: { skills: selectedSkills, options: selectedOptions },
+    };
+
+    onSendAmaraData(data);
+  };
 
   useEffect(() => {
     searchTrees();
@@ -54,6 +61,9 @@ export default function AmaraSkilltree() {
 
   return trees?.amara ? (
     <div className="">
+      <button onClick={handleSendData} className="mb-8 mt-8 ">
+        Save skilltree
+      </button>
       <div className="flex flex-col-gap-4 mb-12">
         <div className="flex gap-4">
           <CustomSelect
@@ -75,7 +85,7 @@ export default function AmaraSkilltree() {
       </div>
       <div className="grid grid-cols-4 gap-4">
         <div className="green col-span-1">
-          <h1 className="text-center">
+          <h1 className="text-center mb-4">
             {trees.amara.abilities[0].skillTreeName}
           </h1>
           <div className="grid grid-cols-3 gap-4 mb-4">
@@ -84,7 +94,15 @@ export default function AmaraSkilltree() {
               maxPoints={trees.amara.abilities[0].skills[0].maxPoints}
               imageUrl={trees.amara.abilities[0].skills[0].imageUrl}
               description={trees.amara.abilities[0].skills[0].description}
-              onPointsChange={(skill) => console.log(skill)}
+              onPointsChange={(updatedSkill) =>
+                handleSkillChange({
+                  title: updatedSkill.title,
+                  maxPoints: updatedSkill.maxPoints,
+                  pointsAllocated: updatedSkill.points,
+                  imageUrl: updatedSkill.imageUrl,
+                  description: updatedSkill.description,
+                })
+              }
             />
             <SkillBox
               title={trees.amara.abilities[0].skills[1].title}
@@ -288,7 +306,7 @@ export default function AmaraSkilltree() {
           </div>
         </div>
         <div className="blue col-span-1">
-          <h1 className="text-center">
+          <h1 className="text-center mb-4">
             {trees.amara.abilities[1].skillTreeName}
           </h1>
           <div className="grid grid-cols-3 gap-4">
