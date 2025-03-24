@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 
 export default function PageClassMods({
   show,
+  originalClassMods,
   onSendClassMods,
 }: {
   show: boolean;
+  originalClassMods: any;
   onSendClassMods?: any;
 }) {
   const [selectedClassMods, setSelectedClassMods] = useState<any[]>([]);
@@ -16,9 +18,7 @@ export default function PageClassMods({
   }, []);
 
   const searchClassMods = () => {
-    getClassMods().then((data) => {
-      setClassMods(data);
-    });
+    setClassMods(originalClassMods);
   };
 
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {

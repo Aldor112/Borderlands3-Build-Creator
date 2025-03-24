@@ -5,22 +5,24 @@ import { useEffect, useState } from "react";
 
 export default function PageWeapons({
   show,
+  originalWeapons,
   onSendWeapons,
 }: {
   show: boolean;
+  originalWeapons: any;
   onSendWeapons?: any;
 }) {
   const [selectedWeapons, setSelectedWeaponsData] = useState<any[]>([]);
   const [weapons, setWeaponsData] = useState<any>(null);
+
   useEffect(() => {
     searchWeapons();
   }, []);
 
   const searchWeapons = () => {
-    getWeapons().then((data) => {
-      setWeaponsData(data);
-    });
+    setWeaponsData(originalWeapons);
   };
+
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     if (search.length === 0) {

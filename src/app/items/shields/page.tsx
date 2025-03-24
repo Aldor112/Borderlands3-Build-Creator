@@ -5,18 +5,20 @@ import { useEffect, useState } from "react";
 
 export default function PageShield({
   show,
+  originalShields,
   onSendShield,
 }: {
   show: boolean;
+  originalShields: any;
   onSendShield?: any;
 }) {
   const [selectedShields, setSelectedShields] = useState<any[]>([]);
   const [shields, setShieldsData] = useState<any>(null);
+
   const searchShields = () => {
-    getShields().then((data) => {
-      setShieldsData(data);
-    });
+    setShieldsData(originalShields);
   };
+
   useEffect(() => {
     searchShields();
   }, []);

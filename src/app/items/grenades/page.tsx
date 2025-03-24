@@ -6,9 +6,11 @@ import { useEffect, useState } from "react";
 
 export default function PageGrenades({
   show,
+  originalGrenades,
   onSendGrenades,
 }: {
   show: boolean;
+  originalGrenades: any;
   onSendGrenades?: any;
 }) {
   const [selectedGrenades, setSelectedGrenades] = useState<any[]>([]);
@@ -18,9 +20,7 @@ export default function PageGrenades({
   }, []);
 
   const searchGrenades = () => {
-    getGrenades().then((data) => {
-      setGrenades(data);
-    });
+    setGrenades(originalGrenades);
   };
 
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {

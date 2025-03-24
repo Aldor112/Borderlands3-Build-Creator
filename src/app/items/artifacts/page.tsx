@@ -6,9 +6,11 @@ import { useEffect, useState } from "react";
 
 export default function PageArtifacts({
   show,
+  originalArtifacts,
   onSendArtifacts,
 }: {
   show: boolean;
+  originalArtifacts: any;
   onSendArtifacts?: any;
 }) {
   const [selectedArtifact, setSelectedArtifact] = useState<any[]>([]);
@@ -18,9 +20,7 @@ export default function PageArtifacts({
   }, []);
 
   const searchArtifacts = () => {
-    getArtifacts().then((data) => {
-      setArtifactsData(data);
-    });
+    setArtifactsData(originalArtifacts);
   };
 
   const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
