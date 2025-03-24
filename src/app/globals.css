@@ -178,3 +178,12 @@ textarea:focus {
   border-color: #ffffff;
   background-color: #2c2c2c;
 }
+
+body{
+  background-color: #1a1a1a;
+  color: #f4d03f;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}

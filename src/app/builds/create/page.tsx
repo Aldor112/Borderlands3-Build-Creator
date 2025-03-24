@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/accordion";
 export default function BuildsCreate() {
   const [buildData, setBuildData] = useState<any[]>([]);
+  const [fileName, setFileName] = useState<string>("");
 
   const handleBuildData = (data: any) => {
     setBuildData([...buildData, data]);
@@ -29,13 +30,22 @@ export default function BuildsCreate() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "build.json";
+    a.download = `${fileName || "build"}.json`;
     a.click();
     a.remove();
   };
   return (
     <div>
-      <button onClick={handleDownload}>Descargar Build en JSON</button>
+      <div className="flex items-center gap-4 mb-4">
+        <input
+          type="text"
+          placeholder="Enter build name"
+          value={fileName}
+          onChange={(e) => setFileName(e.target.value)}
+          className="border border-gray-300 rounded px-2 py-1"
+        />
+        <button onClick={handleDownload}>Descargar Build en JSON</button>
+      </div>
       <Tabs className="w-full">
         <TabsList>
           <TabsTrigger value="skilltrees">SkillTrees</TabsTrigger>

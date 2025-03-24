@@ -33,23 +33,31 @@ export function Sidebar() {
     },
   ];
   return (
-    <nav className="h-screen bg-gray-800 text-white p-4">
+    <nav className="h-screen bg-[#1a1a1a] text-[#f4d03f] p-4 border-2 border-[#f4d03f] font-[Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif]">
       <ul>
         {routes.map((route) => (
-          <li key={route.route}>
+          <li key={route.route} className="mb-2">
             <Link
               href={route.route}
-              className={route.route === pathname ? "active" : ""}
+              className={`block p-2 border border-[#f4d03f] font-bold ${
+                route.route === pathname
+                  ? "bg-[#2c2c2c] text-[#f4d03f]"
+                  : "hover:bg-[#3e3e3e] hover:text-white"
+              }`}
             >
               {route.name}
             </Link>
             {route.subroutes && pathname.startsWith(route.route) && (
-              <ul>
+              <ul className="ml-4 mt-2">
                 {route.subroutes.map((subroute) => (
-                  <li key={subroute.route}>
+                  <li key={subroute.route} className="mb-1">
                     <Link
                       href={subroute.route}
-                      className={subroute.route === pathname ? "active" : ""}
+                      className={`block p-2 border border-[#f4d03f] font-bold ${
+                        subroute.route === pathname
+                          ? "bg-[#2c2c2c] text-[#f4d03f]"
+                          : "hover:bg-[#3e3e3e] hover:text-white"
+                      }`}
                     >
                       {subroute.name}
                     </Link>
