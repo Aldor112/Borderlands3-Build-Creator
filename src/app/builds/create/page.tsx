@@ -29,7 +29,7 @@ export default function BuildsCreate() {
   const [grenades, setGrenades] = useState<any>(null);
   const [class_mods, setClassMods] = useState<any>(null);
   const [artifacts, setArtifactsData] = useState<any>(null);
-
+  const [notes, setNotesData] = useState<string>("");
   const searchArtifacts = () => {
     getArtifacts().then((data) => {
       setArtifactsData(data);
@@ -82,6 +82,10 @@ export default function BuildsCreate() {
     a.click();
     a.remove();
   };
+
+  const addNotes = () => {
+    setBuildData([...buildData, { notes }]);
+  };
   return (
     <div>
       <div className="flex items-center gap-4 mb-4">
@@ -93,6 +97,19 @@ export default function BuildsCreate() {
           className="border border-gray-300 rounded px-2 py-1"
         />
         <button onClick={handleDownload}>Descargar Build en JSON</button>
+      </div>
+      <div className="flex flex-wrap  mb-4">
+        <div className="w-full lg:w-1/3 px-4">
+          <label className="block mb-2">Notas</label>
+          <textarea
+            className="w-full border rounded p-2"
+            rows={5}
+            onChange={(e) => {
+              setNotesData(e.target.value);
+            }}
+          ></textarea>
+          <button onClick={addNotes}>Save Notes</button>
+        </div>
       </div>
       <Tabs className="w-full">
         <TabsList>

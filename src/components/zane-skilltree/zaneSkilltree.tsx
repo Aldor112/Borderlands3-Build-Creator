@@ -67,8 +67,11 @@ export default function ZaneSkilltree({
 
   return trees?.zane ? (
     <div className="">
+      <button onClick={handleSendData} className="mb-8 mt-8 ">
+        Save skilltree
+      </button>
       <div className="flex flex-col gap-4 mb-12">
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-4">
           <CustomSelect
             options={trees.zane.actionSkills}
             onSelect={(option) => handleSelectChange("actionSkill1", option)}
