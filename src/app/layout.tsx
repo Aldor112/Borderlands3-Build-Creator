@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Black_Ops_One, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Sidebar } from "@/components/sidebar/sidebar";
 

@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function AmaraSkilltree({ onSendAmaraData }: any) {
-  const [trees, setTreesData] = useState<any | null>(null);
-  const [selectedSkills, setSelectedSkills] = useState<any[]>([]);
+  const [trees, setTreesData] = useState<SkillTreeData | null>(null);
+  const [selectedSkills, setSelectedSkills] = useState<Skill[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
   const searchTrees = () => {
     getSkilltrees().then((data) => {
@@ -14,7 +16,7 @@ export default function AmaraSkilltree({ onSendAmaraData }: any) {
     });
   };
 
-  const handleSkillChange = (skill: any) => {
+  const handleSkillChange = (skill: Skill) => {
     setSelectedSkills((prevSkills) => {
       const existingSkill = prevSkills.find((s) => s.title === skill.title);
 
@@ -31,7 +33,7 @@ export default function AmaraSkilltree({ onSendAmaraData }: any) {
       }
     });
   };
-
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleSelectChange = (key: string, option: any) => {
     setSelectedOptions((prevOptions) => {
       const existingOptionIndex = prevOptions.findIndex((o) => o.key === key);

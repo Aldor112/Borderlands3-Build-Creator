@@ -3,6 +3,7 @@ import { useState, useCallback } from "react";
 const BorderlandsDropbox = ({
   onFileRead,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onFileRead: (data: any) => void;
 }) => {
   const [isDragging, setIsDragging] = useState(false);
