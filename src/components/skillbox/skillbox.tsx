@@ -71,19 +71,23 @@ export default function SkillBox({
             className="w-16 h-16 rounded-md border border-gray-300 shadow-sm"
           />
           <div className="flex gap-4 items-center">
-            <button
-              onClick={handleRemovePoint}
-              className="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600"
-            >
-              -
-            </button>
-            <p className="text-lg font-medium text-gray-700">{points}</p>
-            <button
-              onClick={handleAddPoint}
-              className="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600"
-            >
-              +
-            </button>
+            {pointsAssigned ? null : (
+              <button
+                onClick={handleRemovePoint}
+                className="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+              >
+                -
+              </button>
+            )}
+            <p className="text-lg font-medium text-white">{points}</p>
+            {pointsAssigned ? null : (
+              <button
+                onClick={handleAddPoint}
+                className="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600"
+              >
+                +
+              </button>
+            )}
           </div>
         </div>
       </HoverCardTrigger>
