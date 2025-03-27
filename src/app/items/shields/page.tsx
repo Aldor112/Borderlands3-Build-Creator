@@ -13,7 +13,7 @@ export default function PageShield({
   onSendShield?: any;
 }) {
   const [selectedShields, setSelectedShields] = useState<any[]>([]);
-  const [shields, setShieldsData] = useState<any>(null);
+  const [shields, setShieldsData] = useState<ShieldsData>(null);
 
   const searchShields = () => {
     originalShields ? setShieldsData(originalShields) : callApiShields();

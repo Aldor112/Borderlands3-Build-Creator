@@ -12,7 +12,7 @@ export default function PageClassMods({
   onSendClassMods?: any;
 }) {
   const [selectedClassMods, setSelectedClassMods] = useState<any[]>([]);
-  const [class_mods, setClassMods] = useState<any>(null);
+  const [class_mods, setClassMods] = useState<ClassModsData>(null);
   useEffect(() => {
     searchClassMods();
   }, []);

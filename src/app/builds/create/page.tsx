@@ -22,13 +22,13 @@ import getGrenades from "@/actions/get-grenades";
 import getClassMods from "@/actions/get-class-mods";
 import getArtifacts from "@/actions/get-artifacts";
 export default function BuildsCreate() {
-  const [buildData, setBuildData] = useState<any[]>([]);
+  const [buildData, setBuildData] = useState<BuildData[]>([]);
   const [fileName, setFileName] = useState<string>("");
-  const [weapons, setWeaponsData] = useState<any>(null);
-  const [shields, setShieldsData] = useState<any>(null);
-  const [grenades, setGrenades] = useState<any>(null);
-  const [class_mods, setClassMods] = useState<any>(null);
-  const [artifacts, setArtifactsData] = useState<any>(null);
+  const [weapons, setWeaponsData] = useState<WeaponsResponse>(null);
+  const [shields, setShieldsData] = useState<ShieldsData>(null);
+  const [grenades, setGrenades] = useState<GrenadesData>(null);
+  const [class_mods, setClassMods] = useState<ClassModsData>(null);
+  const [artifacts, setArtifactsData] = useState<ArtifactsData>(null);
   const [notes, setNotesData] = useState<string>("");
   const searchArtifacts = () => {
     getArtifacts().then((data) => {

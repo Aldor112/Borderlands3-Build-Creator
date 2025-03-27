@@ -14,7 +14,7 @@ export default function PageGrenades({
   onSendGrenades?: any;
 }) {
   const [selectedGrenades, setSelectedGrenades] = useState<any[]>([]);
-  const [grenades, setGrenades] = useState<any>(null);
+  const [grenades, setGrenades] = useState<GrenadesData>(null);
   useEffect(() => {
     searchGrenades();
   }, []);

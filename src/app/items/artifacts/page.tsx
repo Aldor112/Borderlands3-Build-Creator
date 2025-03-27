@@ -14,7 +14,7 @@ export default function PageArtifacts({
   onSendArtifacts?: any;
 }) {
   const [selectedArtifact, setSelectedArtifact] = useState<any[]>([]);
-  const [artifacts, setArtifactsData] = useState<any>(null);
+  const [artifacts, setArtifactsData] = useState<ArtifactsData>(null);
   useEffect(() => {
     searchArtifacts();
   }, []);

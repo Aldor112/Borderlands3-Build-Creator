@@ -13,7 +13,7 @@ export default function PageWeapons({
   onSendWeapons?: any;
 }) {
   const [selectedWeapons, setSelectedWeaponsData] = useState<any[]>([]);
-  const [weapons, setWeaponsData] = useState<any>(null);
+  const [weapons, setWeaponsData] = useState<WeaponsResponse>(null);
 
   useEffect(() => {
     searchWeapons();
