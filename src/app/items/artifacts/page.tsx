@@ -4,16 +4,15 @@ import getArtifacts from "@/actions/get-artifacts";
 import SourceComponent from "@/components/source/source";
 import { useEffect, useState } from "react";
 
-export default function PageArtifacts({
+const PageArtifacts = ({
   show,
   originalArtifacts,
   onSendArtifacts,
 }: {
   show: boolean;
   originalArtifacts: ArtifactsData;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  onSendArtifacts?: any;
-}) {
+  onSendArtifacts?: (data: ArtifactsData) => void;
+}) => {
   const [selectedArtifact, setSelectedArtifact] = useState<ArtifactsData>({
     artifacts: [],
   });
@@ -128,4 +127,5 @@ export default function PageArtifacts({
       </div>
     </div>
   );
-}
+};
+export default PageArtifacts;
