@@ -10,10 +10,13 @@ export default function PageGrenades({
   onSendGrenades,
 }: {
   show: boolean;
-  originalGrenades: any;
+  originalGrenades: GrenadesData;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendGrenades?: any;
 }) {
-  const [selectedGrenades, setSelectedGrenades] = useState<any[]>([]);
+  const [selectedGrenades, setSelectedGrenades] = useState<GrenadesData>({
+    grenades: { grenades: [] },
+  });
   const [grenades, setGrenades] = useState<GrenadesData>(null);
   useEffect(() => {
     searchGrenades();
@@ -35,14 +38,15 @@ export default function PageGrenades({
       return;
     }
 
-    const filteredGrenades = grenades.grenades.grenades.filter((grenade: any) =>
-      grenade.name.toLowerCase().includes(search.toLowerCase())
+    const filteredGrenades = grenades.grenades.grenades.filter(
+      (grenade: Grenade) =>
+        grenade.name.toLowerCase().includes(search.toLowerCase())
     );
     setGrenades({ grenades: { grenades: filteredGrenades } });
   };
 
-  const onAddGrenades = (grenade: any) => {
-    const duplicate = selectedGrenades.find(
+  const onAddGrenades = (grenade: Grenade) => {
+    const duplicate = selectedGrenades.grenades.grenades.find(
       (item) => item.name === grenade.name
     );
 
@@ -50,11 +54,15 @@ export default function PageGrenades({
       return;
     }
 
-    setSelectedGrenades([...selectedGrenades, grenade]);
+    setSelectedGrenades({
+      grenades: {
+        grenades: [...selectedGrenades.grenades.grenades, grenade],
+      },
+    });
   };
 
   const sendGrenades = () => {
-    onSendGrenades({ grenades: { grenades: selectedGrenades } });
+    onSendGrenades(selectedGrenades);
   };
   return (
     <div className="flex flex-col items-center h-screen">
@@ -66,7 +74,7 @@ export default function PageGrenades({
         />
       </div>
       <div className="mt-7">
-        <button onClick={sendGrenades}>Save</button>
+        {originalGrenades ? <button onClick={sendGrenades}>Save</button> : null}
         <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
@@ -81,42 +89,44 @@ export default function PageGrenades({
           </thead>
           <tbody>
             {grenades?.grenades ? (
-              grenades.grenades.grenades.map((grenade: any, index: number) => (
-                <tr key={index}>
-                  <td className="flex gap-2">
-                    <img
-                      src={grenade.image}
-                      alt={grenade.name}
-                      width={30}
-                      height={30}
-                    />
-                    {grenade.name}
-                  </td>
-                  <td>{grenade.content}</td>
-                  <td>{grenade.manufacturer}</td>
-                  <td>{grenade.elements.join(",")}</td>
-                  <td>{SourceComponent(grenade.sources)}</td>
-                  <td>
-                    <a
-                      href={`${process.env.NEXT_PUBLIC_WEB_URL}${grenade.link}`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      See more
-                    </a>
-                  </td>
-                  {show ? (
-                    <td>
-                      <button
-                        className=""
-                        onClick={() => onAddGrenades(grenade)}
-                      >
-                        add
-                      </button>
+              grenades.grenades.grenades.map(
+                (grenade: Grenade, index: number) => (
+                  <tr key={index}>
+                    <td className="flex gap-2">
+                      <img
+                        src={grenade.image}
+                        alt={grenade.name}
+                        width={30}
+                        height={30}
+                      />
+                      {grenade.name}
                     </td>
-                  ) : null}
-                </tr>
-              ))
+                    <td>{grenade.content}</td>
+                    <td>{grenade.manufacturer}</td>
+                    <td>{grenade.elements.join(",")}</td>
+                    <td>{SourceComponent(grenade.sources)}</td>
+                    <td>
+                      <a
+                        href={`${process.env.NEXT_PUBLIC_WEB_URL}${grenade.link}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        See more
+                      </a>
+                    </td>
+                    {show ? (
+                      <td>
+                        <button
+                          className=""
+                          onClick={() => onAddGrenades(grenade)}
+                        >
+                          Add
+                        </button>
+                      </td>
+                    ) : null}
+                  </tr>
+                )
+              )
             ) : (
               <tr>
                 <td>Loading...</td>

@@ -54,7 +54,7 @@ export default function BuildsCreate() {
     });
   };
 
-  const handleBuildData = (data: any) => {
+  const handleBuildData = (data: BuildData) => {
     setBuildData([...buildData, data]);
   };
 

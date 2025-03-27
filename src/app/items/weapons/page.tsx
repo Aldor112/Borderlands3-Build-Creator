@@ -9,10 +9,13 @@ export default function PageWeapons({
   onSendWeapons,
 }: {
   show: boolean;
-  originalWeapons: any;
+  originalWeapons: WeaponsResponse;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendWeapons?: any;
 }) {
-  const [selectedWeapons, setSelectedWeaponsData] = useState<any[]>([]);
+  const [selectedWeapons, setSelectedWeaponsData] = useState<WeaponsResponse>({
+    weapons: [],
+  });
   const [weapons, setWeaponsData] = useState<WeaponsResponse>(null);
 
   useEffect(() => {
@@ -35,24 +38,26 @@ export default function PageWeapons({
       searchWeapons();
       return;
     }
-    const filteredWeapons = weapons.weapons.filter((weapon: any) =>
+    const filteredWeapons = weapons.weapons.filter((weapon: Weapon) =>
       weapon.name.toLowerCase().includes(search.toLowerCase())
     );
     setWeaponsData({ weapons: filteredWeapons });
   };
 
-  const onAddWeapon = (weapon: any) => {
-    const duplicate = selectedWeapons.find((item) => item.name === weapon.name);
+  const onAddWeapon = (weapon: Weapon) => {
+    const duplicate = selectedWeapons.weapons.find(
+      (item) => item.name === weapon.name
+    );
 
     if (duplicate) {
       return;
     }
 
-    setSelectedWeaponsData([...selectedWeapons, weapon]);
+    setSelectedWeaponsData({ weapons: [...selectedWeapons.weapons, weapon] });
   };
 
   const sendWeapons = () => {
-    onSendWeapons({ weapons: selectedWeapons });
+    onSendWeapons(selectedWeapons);
   };
   return (
     <div className="flex flex-col items-center h-screen">
@@ -64,7 +69,7 @@ export default function PageWeapons({
         />
       </div>
       <div className="mt-7">
-        <button onClick={sendWeapons}>Save</button>
+        {originalWeapons ? <button onClick={sendWeapons}>Save</button> : null}
         <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
@@ -80,7 +85,7 @@ export default function PageWeapons({
           </thead>
           <tbody>
             {weapons?.weapons ? (
-              weapons.weapons.map((weapon: any, index: number) => (
+              weapons.weapons.map((weapon: Weapon, index: number) => (
                 <tr key={index}>
                   <td className="flex gap-2">
                     <img
@@ -107,7 +112,7 @@ export default function PageWeapons({
                   </td>
                   {show ? (
                     <td>
-                      <button onClick={() => onAddWeapon(weapon)}> add</button>
+                      <button onClick={() => onAddWeapon(weapon)}>Add</button>
                     </td>
                   ) : null}
                 </tr>
@@ -122,7 +127,4 @@ export default function PageWeapons({
       </div>
     </div>
   );
-}
-function onSearchChange(event: Event | undefined) {
-  throw new Error("Function not implemented.");
 }

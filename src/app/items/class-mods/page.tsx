@@ -8,10 +8,13 @@ export default function PageClassMods({
   onSendClassMods,
 }: {
   show: boolean;
-  originalClassMods: any;
+  originalClassMods: ClassModsData;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendClassMods?: any;
 }) {
-  const [selectedClassMods, setSelectedClassMods] = useState<any[]>([]);
+  const [selectedClassMods, setSelectedClassMods] = useState<ClassModsData>({
+    classMods: [],
+  });
   const [class_mods, setClassMods] = useState<ClassModsData>(null);
   useEffect(() => {
     searchClassMods();
@@ -33,14 +36,15 @@ export default function PageClassMods({
       return;
     }
 
-    const filteredClassMods = class_mods.classMods.filter((class_mod: any) =>
-      class_mod.name.toLowerCase().includes(search.toLowerCase())
+    const filteredClassMods = class_mods.classMods.filter(
+      (class_mod: ClassMod) =>
+        class_mod.name.toLowerCase().includes(search.toLowerCase())
     );
     setClassMods({ classMods: filteredClassMods });
   };
 
-  const onAddClassMods = (class_mod: any) => {
-    const duplicate = selectedClassMods.find(
+  const onAddClassMods = (class_mod: ClassMod) => {
+    const duplicate = selectedClassMods.classMods.find(
       (item) => item.name === class_mod.name
     );
 
@@ -48,11 +52,14 @@ export default function PageClassMods({
       return;
     }
 
-    setSelectedClassMods([...selectedClassMods, class_mod]);
+    setSelectedClassMods({
+      ...selectedClassMods,
+      classMods: [...selectedClassMods.classMods, class_mod],
+    });
   };
 
   const sendClassMods = () => {
-    onSendClassMods({ classMods: selectedClassMods });
+    onSendClassMods(selectedClassMods);
   };
   return (
     <div className="flex flex-col items-center h-screen">
@@ -64,7 +71,9 @@ export default function PageClassMods({
         />
       </div>
       <div className="mt-7">
-        <button onClick={sendClassMods}>Save</button>
+        {originalClassMods ? (
+          <button onClick={sendClassMods}>Save</button>
+        ) : null}
         <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
@@ -78,41 +87,43 @@ export default function PageClassMods({
           </thead>
           <tbody>
             {class_mods?.classMods ? (
-              class_mods?.classMods.map((class_mod: any, index: number) => (
-                <tr key={index}>
-                  <td className="flex gap-2">
-                    <img
-                      src={class_mod.imageUrl}
-                      alt={class_mod.name}
-                      width={30}
-                      height={30}
-                    />
-                    {class_mod.name}
-                  </td>
-                  <td>{class_mod.class}</td>
-                  <td>{class_mod.content}</td>
-                  <td>{class_mod.sources}</td>
-                  <td>
-                    <a
-                      href={`${process.env.NEXT_PUBLIC_WEB_URL}${class_mod.link}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      See More
-                    </a>
-                  </td>
-                  {show ? (
-                    <td>
-                      <button
-                        className=""
-                        onClick={() => onAddClassMods(class_mod)}
-                      >
-                        add
-                      </button>
+              class_mods?.classMods.map(
+                (class_mod: ClassMod, index: number) => (
+                  <tr key={index}>
+                    <td className="flex gap-2">
+                      <img
+                        src={class_mod.imageUrl}
+                        alt={class_mod.name}
+                        width={30}
+                        height={30}
+                      />
+                      {class_mod.name}
                     </td>
-                  ) : null}
-                </tr>
-              ))
+                    <td>{class_mod.class}</td>
+                    <td>{class_mod.content}</td>
+                    <td>{class_mod.sources}</td>
+                    <td>
+                      <a
+                        href={`${process.env.NEXT_PUBLIC_WEB_URL}${class_mod.link}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        See More
+                      </a>
+                    </td>
+                    {show ? (
+                      <td>
+                        <button
+                          className=""
+                          onClick={() => onAddClassMods(class_mod)}
+                        >
+                          Add
+                        </button>
+                      </td>
+                    ) : null}
+                  </tr>
+                )
+              )
             ) : (
               <tr>
                 <td>Loading...</td>

@@ -10,10 +10,13 @@ export default function PageArtifacts({
   onSendArtifacts,
 }: {
   show: boolean;
-  originalArtifacts: any;
+  originalArtifacts: ArtifactsData;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendArtifacts?: any;
 }) {
-  const [selectedArtifact, setSelectedArtifact] = useState<any[]>([]);
+  const [selectedArtifact, setSelectedArtifact] = useState<ArtifactsData>({
+    artifacts: [],
+  });
   const [artifacts, setArtifactsData] = useState<ArtifactsData>(null);
   useEffect(() => {
     searchArtifacts();
@@ -36,25 +39,27 @@ export default function PageArtifacts({
       searchArtifacts();
       return;
     }
-    const filteredArtifacts = artifacts.artifacts.filter((artifact: any) =>
+    const filteredArtifacts = artifacts.artifacts.filter((artifact: Artifact) =>
       artifact.name.toLowerCase().includes(search.toLowerCase())
     );
     setArtifactsData({ artifacts: filteredArtifacts });
   };
 
-  const onAddArtifact = (artifact: any) => {
-    const duplicate = selectedArtifact.find(
+  const onAddArtifact = (artifact: Artifact) => {
+    const duplicate = selectedArtifact.artifacts.find(
       (item) => item.name === artifact.name
     );
 
     if (duplicate) {
       return;
     }
-    setSelectedArtifact([...selectedArtifact, artifact]);
+    setSelectedArtifact({
+      artifacts: [...selectedArtifact.artifacts, artifact],
+    });
   };
 
   const sendArtifact = () => {
-    onSendArtifacts({ artifacts: selectedArtifact });
+    onSendArtifacts(selectedArtifact);
   };
   return (
     <div className="flex flex-col items-center h-screen">
@@ -66,7 +71,9 @@ export default function PageArtifacts({
         />
       </div>
       <div className="mt-7 ">
-        <button onClick={sendArtifact}>Save</button>
+        {originalArtifacts ? (
+          <button onClick={sendArtifact}>Save</button>
+        ) : null}
         <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
@@ -80,7 +87,7 @@ export default function PageArtifacts({
           </thead>
           <tbody>
             {artifacts?.artifacts ? (
-              artifacts.artifacts.map((artifact: any, index: number) => (
+              artifacts.artifacts.map((artifact: Artifact, index: number) => (
                 <tr key={index}>
                   <td className="">{artifact.name}</td>
                   <td>{artifact.type}</td>
@@ -101,7 +108,7 @@ export default function PageArtifacts({
                         className=""
                         onClick={() => onAddArtifact(artifact)}
                       >
-                        add
+                        Add
                       </button>
                     </td>
                   ) : null}

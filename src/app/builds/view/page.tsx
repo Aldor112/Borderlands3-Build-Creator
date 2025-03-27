@@ -4,10 +4,10 @@ import ViewBuildData from "@/components/view-build-data/viewBuildData";
 import { useState } from "react";
 
 export default function BuildsView() {
-  const [buildData, setBuildData] = useState<any>();
-  const handleFileRead = (data: any) => {
+  const [buildData, setBuildData] = useState<BuildData>();
+  const handleFileRead = (data: BuildData[]) => {
     const dataConverted = data.reduce(
-      (acc: any, item: any) => ({ ...acc, ...item }),
+      (acc: BuildData, item: BuildData) => ({ ...acc, ...item }),
       {}
     );
     setBuildData(dataConverted);

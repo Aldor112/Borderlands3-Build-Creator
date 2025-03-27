@@ -9,10 +9,13 @@ export default function PageShield({
   onSendShield,
 }: {
   show: boolean;
-  originalShields: any;
+  originalShields: ShieldsData;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendShield?: any;
 }) {
-  const [selectedShields, setSelectedShields] = useState<any[]>([]);
+  const [selectedShields, setSelectedShields] = useState<ShieldsData>({
+    shields: [],
+  });
   const [shields, setShieldsData] = useState<ShieldsData>(null);
 
   const searchShields = () => {
@@ -33,23 +36,25 @@ export default function PageShield({
       searchShields();
       return;
     }
-    const filteredShields = shields.shields.filter((weapon: any) =>
-      weapon.name.toLowerCase().includes(search.toLowerCase())
+    const filteredShields = shields.shields.filter((shield: Shield) =>
+      shield.name.toLowerCase().includes(search.toLowerCase())
     );
     setShieldsData({ shields: filteredShields });
   };
 
-  const onAddShield = (shield: any) => {
-    const duplicate = selectedShields.find((item) => item.name === shield.name);
+  const onAddShield = (shield: Shield) => {
+    const duplicate = selectedShields.shields.find(
+      (item) => item.name === shield.name
+    );
 
     if (duplicate) {
       return;
     }
-    setSelectedShields([...selectedShields, shield]);
+    setSelectedShields({ shields: [...selectedShields.shields, shield] });
   };
 
   const sendShield = () => {
-    onSendShield({ shields: selectedShields });
+    onSendShield(selectedShields);
   };
   return (
     <div className="flex flex-col items-center h-screen">
@@ -61,7 +66,7 @@ export default function PageShield({
         />
       </div>
       <div className="mt-7">
-        <button onClick={sendShield}>Save</button>
+        {originalShields ? <button onClick={sendShield}>Save</button> : null}
         <table className="table-auto overflow-auto borderlands-table">
           <thead>
             <tr>
@@ -77,7 +82,7 @@ export default function PageShield({
           </thead>
           <tbody>
             {shields?.shields ? (
-              shields.shields.map((shield: any, index: number) => (
+              shields.shields.map((shield: Shield, index: number) => (
                 <tr key={index}>
                   <td className="flex gap-2 ">
                     <img
@@ -104,7 +109,7 @@ export default function PageShield({
                   </td>
                   {show ? (
                     <td>
-                      <button onClick={() => onAddShield(shield)}>add</button>
+                      <button onClick={() => onAddShield(shield)}>Add</button>
                     </td>
                   ) : null}
                 </tr>
