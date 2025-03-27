@@ -23,9 +23,11 @@ export default function PageArtifacts({
   }, []);
 
   const searchArtifacts = () => {
-    originalArtifacts
-      ? setArtifactsData(originalArtifacts)
-      : callApiArtifacts();
+    if (originalArtifacts) {
+      setArtifactsData(originalArtifacts);
+    } else {
+      callApiArtifacts();
+    }
   };
 
   const callApiArtifacts = () => {

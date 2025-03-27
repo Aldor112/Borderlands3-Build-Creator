@@ -8,6 +8,7 @@ import CustomSelect from "../action-skill-select/actionSkillSelect";
 export default function Fl4kSkilltree({
   onSendFl4kData,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendFl4kData: any;
 }) {
   const [trees, setTreesData] = useState<SkillTreeData | null>(null);
@@ -38,6 +39,7 @@ export default function Fl4kSkilltree({
     });
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleSelectChange = (key: string, option: any) => {
     setSelectedOptions((prevOptions) => {
       const existingOptionIndex = prevOptions.findIndex((o) => o.key === key);

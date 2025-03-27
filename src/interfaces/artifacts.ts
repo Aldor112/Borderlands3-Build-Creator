@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 interface ArtifactSource {
   source: string;
   type: string;

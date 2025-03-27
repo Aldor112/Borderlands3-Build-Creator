@@ -23,7 +23,14 @@ export default function PageWeapons({
   }, []);
 
   const searchWeapons = () => {
-    originalWeapons ? setWeaponsData(originalWeapons) : callApiWeapons();
+    console.log("original weapons ", originalWeapons);
+    if (originalWeapons) {
+      console.log("se seteo", originalWeapons);
+
+      setWeaponsData(originalWeapons);
+    } else {
+      callApiWeapons();
+    }
   };
 
   const callApiWeapons = () => {

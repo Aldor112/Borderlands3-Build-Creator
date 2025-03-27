@@ -21,7 +21,11 @@ export default function PageClassMods({
   }, []);
 
   const searchClassMods = () => {
-    originalClassMods ? setClassMods(originalClassMods) : callApiClassMods();
+    if (originalClassMods) {
+      setClassMods(originalClassMods);
+    } else {
+      callApiClassMods();
+    }
   };
 
   const callApiClassMods = () => {

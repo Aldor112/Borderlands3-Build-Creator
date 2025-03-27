@@ -3,10 +3,11 @@ import getSkilltrees from "@/actions/get-skilltrees";
 import { useEffect, useState } from "react";
 import SkillBox from "../skillbox/skillbox";
 import CustomSelect from "../action-skill-select/actionSkillSelect";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 export default function MozeSkilltree({
   onSendMozeData,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendMozeData: any;
 }) {
   const [trees, setTreesData] = useState<SkillTreeData | null>(null);

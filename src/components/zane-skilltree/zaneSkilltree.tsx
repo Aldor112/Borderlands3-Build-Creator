@@ -8,6 +8,7 @@ import CustomSelect from "../action-skill-select/actionSkillSelect";
 export default function ZaneSkilltree({
   onSendZaneData,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSendZaneData: any;
 }) {
   const [trees, setTreesData] = useState<SkillTreeData | null>(null);

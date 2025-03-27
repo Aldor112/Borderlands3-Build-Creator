@@ -19,7 +19,11 @@ export default function PageShield({
   const [shields, setShieldsData] = useState<ShieldsData>(null);
 
   const searchShields = () => {
-    originalShields ? setShieldsData(originalShields) : callApiShields();
+    if (originalShields) {
+      setShieldsData(originalShields);
+    } else {
+      callApiShields();
+    }
   };
 
   const callApiShields = () => {

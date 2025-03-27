@@ -15,11 +15,11 @@ export default function BuildsView() {
 
   return buildData ? (
     <ViewBuildData
-      weapons={buildData.weapons}
-      shields={buildData.shields}
-      grenades={buildData.grenades}
-      class_mods={buildData.classMods}
-      artifacts={buildData.artifacts}
+      weapons={{ weapons: buildData.weapons }}
+      shields={{ shields: buildData.shields }}
+      grenades={{ grenades: buildData.grenades }}
+      class_mods={{ classMods: buildData.classMods }}
+      artifacts={{ artifacts: buildData.artifacts }}
       options={
         buildData?.zane?.options ||
         buildData?.moze?.options ||

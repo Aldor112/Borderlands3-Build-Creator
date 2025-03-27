@@ -17,15 +17,19 @@ export default function viewBuildData({
   options,
   notes,
 }: {
-  weapons: any;
-  shields: any;
-  grenades: any;
-  class_mods: any;
-  artifacts: any;
-  skills: any;
+  weapons: WeaponsResponse;
+  shields: ShieldsData;
+  grenades: GrenadesData;
+  class_mods: ClassModsData;
+  artifacts: ArtifactsData;
+  skills: Skill[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   options: any;
-  notes: any;
+  notes: string;
 }) {
+  console.log("weapons", weapons);
+  console.log("shields", shields);
+  console.log("grenades", grenades);
   return (
     <div className="flex flex-wrap -mx-4">
       <div className="w-full px-4">
@@ -40,73 +44,73 @@ export default function viewBuildData({
             <TabsTrigger value="notes">Notes</TabsTrigger>
           </TabsList>
           <TabsContent value="weapons">
-            <PageWeapons
-              show={false}
-              originalWeapons={{ weapons: weapons }}
-            ></PageWeapons>
+            <PageWeapons show={false} originalWeapons={weapons}></PageWeapons>
           </TabsContent>
           <TabsContent value="shields">
-            <PageShield show={false} originalShields={{ shields }}></PageShield>
+            <PageShield show={false} originalShields={shields}></PageShield>
           </TabsContent>
           <TabsContent value="grenades">
             <PageGrenades
               show={false}
-              originalGrenades={{ grenades }}
+              originalGrenades={grenades}
             ></PageGrenades>
           </TabsContent>
           <TabsContent value="class-mods">
             <PageClassMods
               show={false}
-              originalClassMods={{ classMods: class_mods }}
+              originalClassMods={class_mods}
             ></PageClassMods>
           </TabsContent>
           <TabsContent value="artifacts">
             <PageArtifacts
               show={false}
-              originalArtifacts={{ artifacts }}
+              originalArtifacts={artifacts}
             ></PageArtifacts>
           </TabsContent>
           <TabsContent value="skilltrees">
             <div className="">
               <div className="border-2 border-[#f4d03f] bg-[#1a1a1a] rounded-md overflow-hidden shadow-lg">
-                {options.map((data: any, index: number) => (
-                  <div
-                    key={index}
-                    className="group hover:bg-[#3e3e3e] transition-colors duration-200 border-b border-[#f4d03f] last:border-b-0"
-                  >
-                    <div className="flex items-center justify-between p-3 cursor-pointer">
-                      <div className="flex-1">
-                        <p
-                          className="text-[#f4d03f] font-bold group-hover:text-white"
-                          style={{
-                            fontFamily:
-                              '"Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif',
-                          }}
-                        >
-                          {data?.option?.name || data?.option?.title}
-                        </p>
-                        {data?.option?.description && (
-                          <p className="text-[#f4d03f] text-sm mt-1 opacity-80 group-hover:opacity-100">
-                            {data.option.description}
+                {
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  options.map((data: any, index: number) => (
+                    <div
+                      key={index}
+                      className="group hover:bg-[#3e3e3e] transition-colors duration-200 border-b border-[#f4d03f] last:border-b-0"
+                    >
+                      <div className="flex items-center justify-between p-3 cursor-pointer">
+                        <div className="flex-1">
+                          <p
+                            className="text-[#f4d03f] font-bold group-hover:text-white"
+                            style={{
+                              fontFamily:
+                                '"Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif',
+                            }}
+                          >
+                            {data?.option?.name || data?.option?.title}
                           </p>
-                        )}
-                      </div>
+                          {data?.option?.description && (
+                            <p className="text-[#f4d03f] text-sm mt-1 opacity-80 group-hover:opacity-100">
+                              {data.option.description}
+                            </p>
+                          )}
+                        </div>
 
-                      <div className="ml-4 w-16 h-16 flex-shrink-0 border-2 border-[#f4d03f] rounded bg-[#2c2c2c] overflow-hidden">
-                        {data.option.imageUrl && (
-                          <img
-                            src={data.option.imageUrl}
-                            alt={data?.option?.name || data?.option?.title}
-                            className="w-full h-full object-contain"
-                          />
-                        )}
+                        <div className="ml-4 w-16 h-16 flex-shrink-0 border-2 border-[#f4d03f] rounded bg-[#2c2c2c] overflow-hidden">
+                          {data.option.imageUrl && (
+                            <img
+                              src={data.option.imageUrl}
+                              alt={data?.option?.name || data?.option?.title}
+                              className="w-full h-full object-contain"
+                            />
+                          )}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                }
               </div>
               <div className=" mt-4">
-                {skills.map((data: any, index: any) => (
+                {skills.map((data: Skill, index: number) => (
                   <SkillBox
                     key={index}
                     title={data.title}
@@ -133,7 +137,7 @@ export default function viewBuildData({
               </h3>
 
               <div className="text-[#f4d03f] whitespace-pre-line font-mono bg-[#2c2c2c] p-3 rounded border border-[#f4d03f]">
-                {notes.split("\n").map((line: any, index: any) => (
+                {notes.split("\n").map((line: string, index: number) => (
                   <div
                     key={index}
                     className="flex items-start group hover:bg-[#3e3e3e] px-2 py-1 rounded"

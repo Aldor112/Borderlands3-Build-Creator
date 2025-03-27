@@ -23,7 +23,11 @@ export default function PageGrenades({
   }, []);
 
   const searchGrenades = () => {
-    originalGrenades ? setGrenades(originalGrenades) : callApiGrenades();
+    if (originalGrenades) {
+      setGrenades(originalGrenades);
+    } else {
+      callApiGrenades();
+    }
   };
 
   const callApiGrenades = () => {

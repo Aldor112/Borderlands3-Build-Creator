@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 interface Weapon {
   name: string;
   type: WeaponType;
