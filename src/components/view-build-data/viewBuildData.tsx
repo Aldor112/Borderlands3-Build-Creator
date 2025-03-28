@@ -1,9 +1,10 @@
 "use client";
-import PageArtifacts from "@/app/items/artifacts/page";
-import PageClassMods from "@/app/items/class-mods/page";
-import PageGrenades from "@/app/items/grenades/page";
-import PageShield from "@/app/items/shields/page";
-import PageWeapons from "@/app/items/weapons/page";
+import WeaponsTable from "@/components/weapons-table/weaponsTable";
+import ShieldsTable from "@/components/shields-table/shieldsTable";
+import GrenadesTable from "@/components/grenades-table/grenades-table";
+import ClassModsTables from "@/components/class-mods-table/classModsTable";
+import ArtifactsTable from "@/components/artifacts-table/artifactsTable";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SkillBox from "../skillbox/skillbox";
 
@@ -44,28 +45,28 @@ export default function viewBuildData({
             <TabsTrigger value="notes">Notes</TabsTrigger>
           </TabsList>
           <TabsContent value="weapons">
-            <PageWeapons show={false} originalWeapons={weapons}></PageWeapons>
+            <WeaponsTable show={false} originalWeapons={weapons}></WeaponsTable>
           </TabsContent>
           <TabsContent value="shields">
-            <PageShield show={false} originalShields={shields}></PageShield>
+            <ShieldsTable show={false} originalShields={shields}></ShieldsTable>
           </TabsContent>
           <TabsContent value="grenades">
-            <PageGrenades
+            <GrenadesTable
               show={false}
               originalGrenades={grenades}
-            ></PageGrenades>
+            ></GrenadesTable>
           </TabsContent>
           <TabsContent value="class-mods">
-            <PageClassMods
+            <ClassModsTables
               show={false}
               originalClassMods={class_mods}
-            ></PageClassMods>
+            ></ClassModsTables>
           </TabsContent>
           <TabsContent value="artifacts">
-            <PageArtifacts
+            <ArtifactsTable
               show={false}
               originalArtifacts={artifacts}
-            ></PageArtifacts>
+            ></ArtifactsTable>
           </TabsContent>
           <TabsContent value="skilltrees">
             <div className="">

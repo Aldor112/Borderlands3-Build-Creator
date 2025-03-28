@@ -1,9 +1,9 @@
 "use client";
-import PageArtifacts from "@/app/items/artifacts/page";
-import PageClassMods from "@/app/items/class-mods/page";
-import PageGrenades from "@/app/items/grenades/page";
-import PageShield from "@/app/items/shields/page";
-import PageWeapons from "@/app/items/weapons/page";
+import WeaponsTable from "@/components/weapons-table/weaponsTable";
+import ShieldsTable from "@/components/shields-table/shieldsTable";
+import GrenadesTable from "@/components/grenades-table/grenades-table";
+import ClassModsTables from "@/components/class-mods-table/classModsTable";
+import ArtifactsTable from "@/components/artifacts-table/artifactsTable";
 import AmaraSkilltree from "@/components/amara-skilltree/amaraSkilltree";
 import Fl4kSkilltree from "@/components/fl4k-skilltree/fl4kSkilltree";
 import MozeSkilltree from "@/components/moze-skilltree/mozeSkilltree";
@@ -121,39 +121,39 @@ export default function BuildsCreate() {
           <TabsTrigger value="artifacts">Artifacts</TabsTrigger>
         </TabsList>
         <TabsContent value="weapons">
-          <PageWeapons
+          <WeaponsTable
             show={true}
             onSendWeapons={handleBuildData}
             originalWeapons={weapons}
-          ></PageWeapons>
+          ></WeaponsTable>
         </TabsContent>
         <TabsContent value="shields">
-          <PageShield
+          <ShieldsTable
             show={true}
             onSendShield={handleBuildData}
             originalShields={shields}
-          ></PageShield>
+          ></ShieldsTable>
         </TabsContent>
         <TabsContent value="grenades">
-          <PageGrenades
+          <GrenadesTable
             show={true}
             onSendGrenades={handleBuildData}
             originalGrenades={grenades}
-          ></PageGrenades>
+          ></GrenadesTable>
         </TabsContent>
         <TabsContent value="class-mods">
-          <PageClassMods
+          <ClassModsTables
             show={true}
             onSendClassMods={handleBuildData}
             originalClassMods={class_mods}
-          ></PageClassMods>
+          ></ClassModsTables>
         </TabsContent>
         <TabsContent value="artifacts">
-          <PageArtifacts
+          <ArtifactsTable
             show={true}
             onSendArtifacts={handleBuildData}
             originalArtifacts={artifacts}
-          ></PageArtifacts>
+          ></ArtifactsTable>
         </TabsContent>
         <TabsContent value="skilltrees">
           <Accordion type="single" collapsible>
