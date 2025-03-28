@@ -1,7 +1,7 @@
 "use client";
 
-import weaponsTable from "@/components/weapons-table/weaponsTable";
+import WeaponsTable from "@/components/weapons-table/weaponsTable";
 
 export default function PageWeapons() {
-  return weaponsTable({ show: false });
+  return WeaponsTable({ show: false });
 }

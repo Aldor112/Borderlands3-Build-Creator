@@ -3,7 +3,7 @@
 import getWeapons from "@/actions/get-weapons";
 import { useEffect, useState } from "react";
 
-export default function weaponsTable({
+export default function WeaponsTable({
   show,
   originalWeapons,
   onSendWeapons,
