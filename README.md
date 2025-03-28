@@ -4,6 +4,8 @@
 
 ## Description
 
+Page Link: https://borderlands3-build-creator.vercel.app/
+
 This project, developed with Next.js, allows users to explore different Borderlands 3 items (Artifacts, Shields, Weapons, Class Mods, and Grenades) and create custom builds for the game's characters (FL4K, Zane, Moze, and Amara).
 
 Key Features:
@@ -52,6 +54,8 @@ This project uses data from Lootlemon, a comprehensive resource for Borderlands 
 ## Español
 
 ## Descripción
+
+Link de la pagina: https://borderlands3-build-creator.vercel.app/
 
 Este proyecto, desarrollado con Next.js, permite a los usuarios explorar los diferentes items de Borderlands 3 (Artefactos, Escudos, Armas, Class Mods y Granadas) y crear builds personalizadas para los personajes del juego (FL4K, Zane, Moze y Amara).
 
